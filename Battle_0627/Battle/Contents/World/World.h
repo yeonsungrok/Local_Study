@@ -29,7 +29,7 @@ public:
 	void Battle3();
 	void Input();
 	bool SelectBattle();
-	Player* GetPlayer() { return dynamic_cast<Player*>(_player); }
+	
 
 
 private:
@@ -38,10 +38,10 @@ private:
 	
 	void useMonster(PlayerType num, Creature** creature); 
 
+	void useBossMonster(HobGoblin** creture);
 	void MultyPlayers(); //★만들어봄 // 10명유저 //Player* selected_Player
 
 	void HealAll();
-	
 
 	int _maxExp;
 	int _accmulatedExp;

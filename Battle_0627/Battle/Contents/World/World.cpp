@@ -5,6 +5,7 @@
 World::World()
 : _player(nullptr)
 , _computer(nullptr)
+, hobgoblin(nullptr)
 {
 	//Input();
 	Init();
@@ -16,6 +17,8 @@ World::~World()
 		delete _player;
 	//if(_computer != nullptr)
 		delete _computer;
+		
+		delete hobgoblin;
 }
 
 void World::Init()
@@ -85,6 +88,10 @@ void World::useMonster(PlayerType num, Creature** creature)
 	}
 }
 
+void World::useBossMonster(HobGoblin** creature)
+{
+	*creature = new HobGoblin("BOSS HOB_GOBLIN", 3500, 1000, 100);
+}
 
 void World::MultyPlayers()
 {
@@ -120,6 +127,7 @@ void World::HealAll()
 }
 
 
+
 void World::Input()
 {
 	int playerNum = 0;
@@ -132,6 +140,8 @@ void World::Input()
 	cin >> playerNum;
 	cumNum = rand() % 3 + 1; // 1 ~ 3
 	SelectPlayer(playerNum, name, &_player);
+	MultyPlayers();
+	//BossMonster();
 	//SelectPlayer(playerNum, "computer", &_computer); // 보류
 	useMonster(static_cast<PlayerType>(cumNum), &_computer); // ★변경해봄
 	// player의 받는 값에 따라 달라진것 없이 동일한 한 몬스터만 출력되게함
@@ -199,28 +209,33 @@ void World::Battle2()
 
 }
 
-
-
-
-
-
-
-
-
 void World::Battle3()
 {
-	/*MultyPlayers();
-
-	while (!End())
-	{
-		_player->Attack(hobgoblin);
-		if (hobgoblin && !hobgoblin->IsDead())
-		{
-			hobgoblin->MultyAttack(_player);
+	useBossMonster(&hobgoblin);
+	while (!hobgoblin->IsDead()) {
+		for (auto player : players) {
+			if (!hobgoblin->IsDead()) {
+				player->Attack(hobgoblin);
+			}
+			if (!player->IsDead()) {
+				hobgoblin->Attack(player);
+			}
 		}
 	}
+	HealAll();
 
-	HealAll();*/
+
+	//for (int i = 0; i < players.size(); ++i)
+	//{
+	//	players[i]->Attack(hobgoblin);
+	//	players[i]->Printinfo();
+	//	/*if (!hobgoblin->IsDead() && !players[i]->IsDead())
+	//	{
+	//		
+	//		
+	//	}*/
+	//}
+	
 
 
 
