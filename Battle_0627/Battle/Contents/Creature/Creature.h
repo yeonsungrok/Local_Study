@@ -8,6 +8,9 @@ public:
 	// 멤버함수 : 기능
 
 	void Printinfo();
+
+
+
 	void PreAttack(Creature* other);
 	virtual void Attack(Creature* other) abstract; // 순수가상함수
 	
@@ -19,7 +22,7 @@ public:
 
 	string GetName() const { return _name; }
 	void Heal();
-
+	/*string GetJob() { return _job; }*/
 
 	// aggro 전달
 	int GetAggro() const { return _aggro; }
@@ -32,5 +35,6 @@ protected: // 멤버변수: 속성
 	int _atk;
 	int _Mp;
 	int _aggro;
+	
 };
 

@@ -2,7 +2,8 @@
 #include "Creature.h"
 
 Creature::Creature(string name, int hp, int mp, int atk)
-: _name(name), _curHp(hp), _atk(atk), _Mp(mp),_maxHp(hp),_aggro(0)
+: _name(name), _curHp(hp), _atk(atk), _Mp(mp), _maxHp(hp), _aggro(0)
+
 {
 }
 
@@ -12,8 +13,25 @@ Creature::~Creature()
 
 void Creature::Printinfo()
 {
+	/*string JobString;
+	switch (job)
+	{
+	case 1:
+		JobString = "(기사)";
+		break;
+	case 2:
+		JobString = "(궁수)";
+		break;
+	case 3:
+		JobString = "(마법사)";
+		break;
+	default:
+		JobString = "(몬스터)";
+		break;
+	}*/
+
 	cout << "---- 정보 ----" << endl;
-	cout << "이름 : " <<_name << endl;
+	cout << "이름 : " << _name << endl;
 	cout << "HP : " << _curHp << endl;
 	cout << "MP : " << _Mp << endl;
 	cout << "ATK : " << _atk << endl;

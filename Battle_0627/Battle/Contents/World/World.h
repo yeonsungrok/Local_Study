@@ -23,16 +23,16 @@ public:
 	void Init(); // 초기화
 	
 	bool End();
-	
 	void Battle1();
 	void Battle2(); // 과제
 	void Battle3();
 	void Input();
 	bool SelectBattle();
-	
+
 
 
 private:
+	/*void Job(int num);*/
 
 	void SelectPlayer(int num, string name, Creature** creature);
 	
@@ -45,7 +45,7 @@ private:
 
 	int _maxExp;
 	int _accmulatedExp;
-
+	/*int _Job;*/
 
 
 	Creature* _player;

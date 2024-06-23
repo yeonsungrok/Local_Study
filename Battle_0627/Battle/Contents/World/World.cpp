@@ -38,6 +38,18 @@ bool World::End()
 }
 
 
+//void World::Job(int num)
+//{
+//	
+//	if (PlayerType::KNIGHT == num)
+//	{
+//		cout << "(±â»ç)" << endl;
+//	}
+//	else if (PlayerType::ARCHER == num)
+//
+//
+//}
+
 void World::SelectPlayer(int num, string name, Creature** creature)
 {
 	switch (num)
@@ -49,19 +61,21 @@ void World::SelectPlayer(int num, string name, Creature** creature)
 	}
 
 	case PlayerType::KNIGHT:
-	
 	{
 		*creature = new Knight(name, 500, 20, 15);
+		
 	}
 	break;
 	case PlayerType::ARCHER:
 	{
 		*creature = new Archer(name, 300, 25, 35);
+		
 	}
 	break;
 	case PlayerType::MAGE:
 	{
 		*creature = new Mage(name, 200, 50, 40);
+		
 	}
 	break;
 
@@ -313,3 +327,4 @@ bool World::SelectBattle()
 
 
 }
+
