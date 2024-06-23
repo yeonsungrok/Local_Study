@@ -57,7 +57,7 @@ private:
 	vector<Creature*> players;
 
 	HobGoblin* hobgoblin;
-
+	
 
 
 };

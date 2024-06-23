@@ -95,11 +95,14 @@ void World::useBossMonster(HobGoblin** creature)
 
 void World::MultyPlayers()
 {
-	
+	// 플레이어 벡터 초기화?
+	players.clear();
 
+	// 첫번째 플레이어는 _player
 	players.push_back(_player);
 	//players.push_back(dynamic_cast<Player*>(_player));
 	
+	// 9명 플레이어 추가.
 	for (int i = 0; i < 9; ++i)
 	{
 		int randPlayer = rand() % 3 + 1;
@@ -140,7 +143,7 @@ void World::Input()
 	cin >> playerNum;
 	cumNum = rand() % 3 + 1; // 1 ~ 3
 	SelectPlayer(playerNum, name, &_player);
-	MultyPlayers();
+	//MultyPlayers();
 	//BossMonster();
 	//SelectPlayer(playerNum, "computer", &_computer); // 보류
 	useMonster(static_cast<PlayerType>(cumNum), &_computer); // ★변경해봄
@@ -211,7 +214,47 @@ void World::Battle2()
 
 void World::Battle3()
 {
+	/*MultyPlayers();
+
+	while (!hobgoblin->IsDead()) {
+		for (auto player : players) {
+			if (!hobgoblin->IsDead() && !player->IsDead()) {
+				player->Attack(hobgoblin);
+				if (!hobgoblin->IsDead()) {
+					hobgoblin->Attack(player);
+				}
+			}
+		}
+		hobgoblin->MultyAttack(players);
+	}
+	HealAll();*/
+
+	MultyPlayers();
+
 	useBossMonster(&hobgoblin);
+	// any_of 란?
+	// first 부터 last 전 까지 원소들에 대해 pred 가 참을 리턴하는 원소가 하나라도 있다면, any_of도 참을 리턴
+	// 
+	while (!hobgoblin->IsDead() && any_of(players.begin(), players.end(), [](Creature* player) {return !player->IsDead(); }))
+	{
+		for (auto player : players)
+		{
+			if (!hobgoblin->IsDead() && !player->IsDead())
+			{
+				player->Attack(hobgoblin);
+			}
+		}
+		if (!hobgoblin->IsDead()) 
+		{
+			hobgoblin->MultyAttack(players);
+		}
+	}
+	
+	HealAll();
+	//players.clear();
+	
+
+	/*useBossMonster(&hobgoblin);
 	while (!hobgoblin->IsDead()) {
 		for (auto player : players) {
 			if (!hobgoblin->IsDead()) {
@@ -222,19 +265,9 @@ void World::Battle3()
 			}
 		}
 	}
-	HealAll();
+	HealAll();*/
 
 
-	//for (int i = 0; i < players.size(); ++i)
-	//{
-	//	players[i]->Attack(hobgoblin);
-	//	players[i]->Printinfo();
-	//	/*if (!hobgoblin->IsDead() && !players[i]->IsDead())
-	//	{
-	//		
-	//		
-	//	}*/
-	//}
 	
 
 

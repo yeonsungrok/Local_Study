@@ -20,12 +20,17 @@ public:
 	string GetName() const { return _name; }
 	void Heal();
 
+
+	// aggro 전달
+	int GetAggro() const { return _aggro; }
+	void AddAggro(int amount) { _aggro += amount; }
+
 protected: // 멤버변수: 속성
 	string _name;
 	int _curHp;
 	int _maxHp;
 	int _atk;
 	int _Mp;
-	
+	int _aggro;
 };
 
