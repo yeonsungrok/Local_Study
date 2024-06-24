@@ -48,7 +48,7 @@ void Creature::PreAttack(Creature* other)
 void Creature::TakeDamage(int amount)
 {
 	_curHp -= amount;
-	_aggro += amount; // 피해량 어그로 추가
+	//_aggro += amount; // 피해량 어그로 추가
 
 	if (_curHp < 0)
 		_curHp = 0;
