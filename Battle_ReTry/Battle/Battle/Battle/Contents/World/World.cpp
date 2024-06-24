@@ -191,6 +191,23 @@ void World::Battle3()
 	
 	Players();
 	MakeBoss(&_HobGoblin);
+	
+	for (auto player : _players)
+	{
+		if (!_HobGoblin->IsDead() && !player->IsDead())
+		{
+			player->Attack(_HobGoblin);
+		}
+		if (!_HobGoblin->IsDead())
+		{
+			/*_HobGoblin->*/
+			//dynamic_cast<Player*>(_HobGoblin)->MultyAttack(_players)
+		}
+	}
+
+
+	_players.
+
 	while (!_HobGoblin->IsDead())
 	{
 

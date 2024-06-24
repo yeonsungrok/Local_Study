@@ -15,7 +15,8 @@ public:
 	bool IsDead() { return _curHp <= 0; }
 
 	// 어그로 어떻게 할것인지 고민...
-	int Set_AgrroDamage() { return _Aggro; }
+
+	void AttackAmount(int amount);
 
 protected: // 멤버변수: 속성
 	string _name;

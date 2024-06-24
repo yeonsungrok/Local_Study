@@ -38,6 +38,7 @@ public:
 
 
 private:
+	//void TargetAttack(Creature** player);
 	void Input();
 	void SeletPlayer(int num, string name, Creature** creature);
 	void MakeMonster(Monster** monster);

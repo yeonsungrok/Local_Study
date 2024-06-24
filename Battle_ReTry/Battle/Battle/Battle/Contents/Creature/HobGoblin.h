@@ -9,7 +9,7 @@ public:
 	//void Attack_Hob();
 
 	//vector<>
-	void TakeDamage(int amount);
+	void MultyAttack(Creature* creature);
 	
 	//Tabe..
 	//vector<class AggroInfo> _aggroTable;

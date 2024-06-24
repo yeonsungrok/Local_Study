@@ -17,8 +17,10 @@ HobGoblin::~HobGoblin()
 
 
 
-void HobGoblin::TakeDamage(int amount)
+void HobGoblin::MultyAttack(Creature* creature)
 {
+	/*for (auto player : )
+	Creature* _players[]*/
 	//Creature::TakeDamage(amount, attacker);
 	
 

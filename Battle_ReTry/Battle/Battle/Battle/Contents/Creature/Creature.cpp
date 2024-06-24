@@ -16,7 +16,9 @@ void Creature::PrintInfo()
 	cout << "이름 : " << _name << endl;
 	cout << "HP : " << _curHp << endl;
 	cout << "ATK : " << _atk << endl;
+	cout << "누적 어그로 : " << _Aggro << endl;
 	cout << "---------------" << endl;
+
 }
 
 void Creature::PreAttack(Creature* other)
@@ -33,5 +35,12 @@ void Creature::TakeDamage(int amount)
 		_curHp = 0;
 
 	PrintInfo();
+}
+
+void Creature::AttackAmount(int amount)
+{
+
+	_Aggro += amount;
+	
 }
 

@@ -14,4 +14,5 @@ void Mage::Attack(Creature* other)
 {
 	this->Creature::PreAttack(other);
 	other->TakeDamage(_atk);
+	other->AttackAmount(_Aggro);
 }

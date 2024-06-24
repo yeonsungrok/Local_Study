@@ -21,9 +21,11 @@ void Archer::Attack(Creature* other)
 	if (ratio < 0.3f)
 	{
 		other->TakeDamage(_atk * 3.0f);
+		other->AttackAmount(_Aggro * 3.0f);
 	}
 	else
 	{
 		other->TakeDamage(_atk);
+		other->AttackAmount(_Aggro);
 	}
 }
