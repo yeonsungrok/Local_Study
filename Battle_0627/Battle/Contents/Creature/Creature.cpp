@@ -10,7 +10,6 @@ Creature::Creature(string name, int hp, int mp, int atk)
 Creature::~Creature()
 {
 }
-
 void Creature::Printinfo()
 {
 	/*string JobString;
