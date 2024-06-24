@@ -1,0 +1,16 @@
+﻿  pch.cpp
+  Archer.cpp
+  Creature.cpp
+D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Battle_ReTry\Battle\Battle\Battle\Contents\Creature\Archer.cpp(23,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Goblin.cpp
+  HobGoblin.cpp
+  Knight.cpp
+  Mage.cpp
+  Monster.cpp
+  Player.cpp
+  World.cpp
+  main.cpp
+D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Battle_ReTry\Battle\Battle\Battle\main.cpp(40,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Battle_ReTry\Battle\Battle\Battle\Contents\World\World.cpp(82,1): warning C4715: 'World::SelectBattle': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Battle.vcxproj -> D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Battle_ReTry\Battle\Battle\x64\Debug\Battle.exe
