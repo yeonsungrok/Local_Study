@@ -54,7 +54,7 @@ int main()
 
 	while (true)
 	{
-		world->Battle2();
+		world->Battle3();
 
 		if (world->End())
 			break;

@@ -2,7 +2,7 @@
 #include "Creature.h"
 
 Creature::Creature(string name, int hp, int atk)
-: _name(name), _curHp(hp), _atk(atk), _maxHp(hp)//, _Aggro(0)
+: _name(name), _curHp(hp), _atk(atk), _maxHp(hp), _dmg(0)
 {
 }
 
@@ -28,19 +28,19 @@ void Creature::PreAttack(Creature* other)
 
 void Creature::TakeDamage(int amount)
 {
-	//_Aggro += amount;
+	//_dmg += amount;
 	_curHp -= amount;
 
 	if (_curHp < 0)
 		_curHp = 0;
-
+	
 	PrintInfo();
 }
 
-//void Creature::AttackAmount(int amount)
-//{
-//
-//	_Aggro += amount;
-//	
-//}
-//
+void Creature::Damage(Creature* attacker, int amount)
+{
+	attacker->_dmg; //+= amount;
+	
+}
+
+

@@ -10,23 +10,8 @@ HobGoblin::~HobGoblin()
 {
 }
 
-//void HobGoblin::Attack_Hob()
-//{
-//	
-//}
-
-
-
 void HobGoblin::MultyAttack(Creature* creature)
 {
-	/*for (auto player : )
-	Creature* _players[]*/
-	//Creature::TakeDamage(amount, attacker);
 	
-
-
-	//attacker->Attack()
-	//attacker = ;
-	//amount += _Agrro;
 	
 }

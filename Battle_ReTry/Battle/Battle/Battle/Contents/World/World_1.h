@@ -9,6 +9,7 @@ public:
 
 	void Battle();
 	void Battle2();
+	void Battle3();
 
 	bool GoblinsDead();
 
@@ -18,5 +19,8 @@ private:
 	Creature* _player1;
 	//const int multyplayer = 10;
 	vector<Creature*> _Goblin;
+
+	vector<Creature*> _players;
+	Creature* _hobgoblin;
 };
 

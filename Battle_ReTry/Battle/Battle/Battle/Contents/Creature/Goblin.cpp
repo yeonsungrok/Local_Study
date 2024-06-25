@@ -13,6 +13,7 @@ Goblin::~Goblin()
 
 void Goblin::Attack(Creature* other)
 {
+	if (this->IsDead()) return;
 	this->Creature::PreAttack(other);
 	other->TakeDamage(_atk);
 }

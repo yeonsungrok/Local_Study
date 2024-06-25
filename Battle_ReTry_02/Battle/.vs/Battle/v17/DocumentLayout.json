@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\",
+  "WorkspaceRootPath": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\World\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\World\\World_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\World\\World_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\Creature.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\World\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\Creature.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Knight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Knight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\Knight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\HopGoblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\HopGoblin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Types.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\Creature.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\HopGoblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\World\\World_1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\World\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\World\\World_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\World\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Contents\\Creature\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Types.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5D425289-6458-4B83-AF9D-D76994CB47BB}|Battle\\Battle.vcxproj|solutionrelative:Battle\\Types.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -65,16 +65,16 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 144,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 193,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "World_1.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.h",
               "RelativeDocumentMoniker": "Battle\\Contents\\World\\World_1.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.h",
               "RelativeToolTip": "Battle\\Contents\\World\\World_1.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -83,11 +83,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Player.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.h",
               "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\Player.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.h",
               "RelativeToolTip": "Battle\\Contents\\Creature\\Player.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -95,11 +95,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "World.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.h",
               "RelativeDocumentMoniker": "Battle\\Contents\\World\\World.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.h",
               "RelativeToolTip": "Battle\\Contents\\World\\World.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -107,23 +107,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Creature.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.h",
               "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\Creature.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.h",
               "RelativeToolTip": "Battle\\Contents\\Creature\\Creature.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-24T06:45:15.091Z"
+              "WhenOpened": "2024-06-24T06:45:15.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Types.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Types.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Types.h",
               "RelativeDocumentMoniker": "Battle\\Types.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Types.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Types.h",
               "RelativeToolTip": "Battle\\Types.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -131,79 +132,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "HopGoblin.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.h",
               "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\HopGoblin.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.h",
               "RelativeToolTip": "Battle\\Contents\\Creature\\HopGoblin.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-24T06:43:23.983Z"
+              "WhenOpened": "2024-06-24T06:43:23.983Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 256,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 207,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "World_1.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.cpp",
               "RelativeDocumentMoniker": "Battle\\Contents\\World\\World_1.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World_1.cpp",
               "RelativeToolTip": "Battle\\Contents\\World\\World_1.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-25T04:35:20.15Z",
+              "WhenOpened": "2024-06-25T04:35:20.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\main.cpp",
+              "RelativeDocumentMoniker": "Battle\\main.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\main.cpp",
+              "RelativeToolTip": "Battle\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-24T06:49:49.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Knight.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Knight.cpp",
+              "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\Knight.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Knight.cpp",
+              "RelativeToolTip": "Battle\\Contents\\Creature\\Knight.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-25T00:26:39.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\main.cpp",
-              "RelativeDocumentMoniker": "Battle\\main.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\main.cpp",
-              "RelativeToolTip": "Battle\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.cpp",
+              "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\Player.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.cpp",
+              "RelativeToolTip": "Battle\\Contents\\Creature\\Player.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-24T06:49:49.263Z",
+              "WhenOpened": "2024-06-25T00:18:27.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Knight.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Knight.cpp",
-              "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\Knight.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Knight.cpp",
-              "RelativeToolTip": "Battle\\Contents\\Creature\\Knight.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-25T00:26:39.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.cpp",
-              "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\Player.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Player.cpp",
-              "RelativeToolTip": "Battle\\Contents\\Creature\\Player.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-25T00:18:27.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "World.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.cpp",
               "RelativeDocumentMoniker": "Battle\\Contents\\World\\World.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\World\\World.cpp",
               "RelativeToolTip": "Battle\\Contents\\World\\World.cpp",
               "ViewState": "AQIAAGAAAAAAAAAAAAAAADQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -212,40 +214,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Creature.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.cpp",
               "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\Creature.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Creature.cpp",
               "RelativeToolTip": "Battle\\Contents\\Creature\\Creature.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAACAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-24T06:45:24.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Monster.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Monster.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Monster.cpp",
               "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\Monster.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Monster.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\Monster.cpp",
               "RelativeToolTip": "Battle\\Contents\\Creature\\Monster.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-24T06:45:03.647Z"
+              "WhenOpened": "2024-06-24T06:45:03.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "HopGoblin.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.cpp",
               "RelativeDocumentMoniker": "Battle\\Contents\\Creature\\HopGoblin.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\Battle_ReTry_02\\Battle\\Battle\\Contents\\Creature\\HopGoblin.cpp",
               "RelativeToolTip": "Battle\\Contents\\Creature\\HopGoblin.cpp",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-24T06:43:07.956Z"
+              "WhenOpened": "2024-06-24T06:43:07.956Z",
+              "EditorCaption": ""
             }
           ]
         }
