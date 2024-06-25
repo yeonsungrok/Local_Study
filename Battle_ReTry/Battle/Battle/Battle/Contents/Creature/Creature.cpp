@@ -2,7 +2,7 @@
 #include "Creature.h"
 
 Creature::Creature(string name, int hp, int atk)
-: _name(name), _curHp(hp), _atk(atk), _maxHp(hp), _Aggro(0)
+: _name(name), _curHp(hp), _atk(atk), _maxHp(hp)//, _Aggro(0)
 {
 }
 
@@ -16,7 +16,7 @@ void Creature::PrintInfo()
 	cout << "이름 : " << _name << endl;
 	cout << "HP : " << _curHp << endl;
 	cout << "ATK : " << _atk << endl;
-	cout << "누적 어그로 : " << _Aggro << endl;
+	//cout << "누적 어그로 : " << _Aggro << endl;
 	cout << "---------------" << endl;
 
 }
@@ -37,10 +37,10 @@ void Creature::TakeDamage(int amount)
 	PrintInfo();
 }
 
-void Creature::AttackAmount(int amount)
-{
-
-	_Aggro += amount;
-	
-}
-
+//void Creature::AttackAmount(int amount)
+//{
+//
+//	_Aggro += amount;
+//	
+//}
+//

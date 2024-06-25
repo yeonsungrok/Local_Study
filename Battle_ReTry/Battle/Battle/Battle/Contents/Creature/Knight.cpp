@@ -12,6 +12,7 @@ Knight::~Knight()
 
 void Knight::Attack(Creature* other)
 {
+	if (this->IsDead()) return;
 	this->Creature::PreAttack(other);
 	float ratio = (float)_curHp / (float)_maxHp;
 
@@ -19,11 +20,11 @@ void Knight::Attack(Creature* other)
 	{
 		// 현재 체력이 50프로 미만
 		other->TakeDamage(_atk * 2);
-		other->AttackAmount(_Aggro * 2);
+		
 	}
 	else
 	{
 		other->TakeDamage(_atk);
-		other->AttackAmount(_Aggro);
+		
 	}
 }

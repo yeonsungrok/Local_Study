@@ -5,6 +5,7 @@ Player::Player(string name, int hp, int atk)
 // : Creature()
 : Creature(name, hp, atk)
 , _exp(0)
+
 {
 }
 

@@ -30,8 +30,8 @@ public:
 	
 	bool End();
 	void Battle1();
-	void Battle2(); // 과제
-	void Battle3();
+	//void Battle2(); // 과제
+	//void Battle3();
 	bool SelectBattle();
 	int battleNum = 0;
 	void Players();

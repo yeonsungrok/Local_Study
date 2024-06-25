@@ -37,7 +37,7 @@
 
 int main()
 {
-	srand(time(nullptr));
+	/*srand(time(nullptr));
 
 	World* world = new World();
 
@@ -47,6 +47,18 @@ int main()
 
 		if (world->End())
 			break;
+	}
+	delete world;*/
+
+	World_1* world = new World_1();
+
+	while (true)
+	{
+		world->Battle2();
+
+		if (world->End())
+			break;
+		
 	}
 	delete world;
 

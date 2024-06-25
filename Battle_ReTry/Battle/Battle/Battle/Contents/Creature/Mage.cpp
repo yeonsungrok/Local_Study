@@ -12,7 +12,8 @@ Mage::~Mage()
 
 void Mage::Attack(Creature* other)
 {
+	if (this->IsDead()) return;
 	this->Creature::PreAttack(other);
 	other->TakeDamage(_atk);
-	other->AttackAmount(_Aggro);
+	
 }

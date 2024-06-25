@@ -56,18 +56,18 @@ bool World::SelectBattle()
 		Battle1();
 	}
 	break;
-	case GOBLIN:
-	{
-		
-		//*monster = new Goblin("고블린", 200, 15);
-		Battle2();
-	}
-	break;
-	case HOBGOBLIN:
-	{
-		Battle3();
-	}
-	break;
+	//case GOBLIN:
+	//{
+	//	
+	//	//*monster = new Goblin("고블린", 200, 15);
+	//	Battle2();
+	//}
+	//break;
+	//case HOBGOBLIN:
+	//{
+	//	Battle3();
+	//}
+	//break;
 	case 4:
 		return false;
 
@@ -173,48 +173,4 @@ void World::Battle1()
 	_player->Attack(_computer);
 	_computer->Attack(_player);
 	
-}
-
-
-
-void World::Battle2()
-{
-	MakeMonster(&_Goblin);
-	//_player->Attack(_Goblin);
-	//_Goblin->Attack(_player);
-	//
-
-}
-
-void World::Battle3()
-{
-	
-	Players();
-	MakeBoss(&_HobGoblin);
-	
-	for (auto player : _players)
-	{
-		if (!_HobGoblin->IsDead() && !player->IsDead())
-		{
-			player->Attack(_HobGoblin);
-		}
-		if (!_HobGoblin->IsDead())
-		{
-			/*_HobGoblin->*/
-			//dynamic_cast<Player*>(_HobGoblin)->MultyAttack(_players)
-		}
-	}
-
-
-	_players.
-
-	while (!_HobGoblin->IsDead())
-	{
-
-	}
-
-
-	
-
-
 }

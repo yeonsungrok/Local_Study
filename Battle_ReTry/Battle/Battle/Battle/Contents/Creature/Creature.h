@@ -16,13 +16,14 @@ public:
 
 	// 어그로 어떻게 할것인지 고민...
 
-	void AttackAmount(int amount);
+	//void AttackAmount(int amount);
 
 protected: // 멤버변수: 속성
 	string _name;
 	int _curHp;
 	int _maxHp;
 	int _atk;
-	int _Aggro;
+	
+	//vector<int> _Aggro;
 };
 

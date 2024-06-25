@@ -27,5 +27,6 @@ using namespace std;
 #include "Contents/Creature/Goblin.h"
 #include "Contents/Creature/HobGoblin.h"
 #include "Contents/World/World.h"
+#include "Contents/World/World_1.h"
 
 #include "Contents/Creature/Types.h"
