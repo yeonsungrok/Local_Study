@@ -1,26 +1,54 @@
 ﻿  pch.cpp
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\BattleSystem\AggroSystem.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\HopGoblin.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Types.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Types.h(3,8): warning C4099: 'AggroInfo': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다.
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\BattleSystem\AggroSystem.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
+  
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\HopGoblin.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
+  
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Types.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
+  
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Types.h(3,8): warning C4099: 'AggroInfo': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다.
+  (소스 파일 'pch.cpp'을(를) 컴파일하는 중)
+  D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Types.h(3,8):
+  'AggroInfo' 선언을 참조하십시오.
+  
   AggroSystem.cpp
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\BattleSystem\AggroSystem.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\BattleSystem\AggroSystem.cpp(53,27): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\BattleSystem\AggroSystem.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\BattleSystem\AggroSystem.cpp(53,27): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Contents/BattleSystem/AggroSystem.cpp'을(를) 컴파일하는 중)
+  
   Archer.cpp
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Archer.cpp(20,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Archer.cpp(35,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Archer.cpp(20,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Contents/Creature/Archer.cpp'을(를) 컴파일하는 중)
+  
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Archer.cpp(35,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Contents/Creature/Archer.cpp'을(를) 컴파일하는 중)
+  
   Creature.cpp
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Creature.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Creature.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Knight.cpp
   HopGoblin.cpp
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\HopGoblin.cpp(21,11): error C2668: 'Creature::TakeDamage': 오버로드된 함수에 대한 호출이 모호합니다.
   main.cpp
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\HopGoblin.cpp(21,9): error C2668: 'Creature::TakeDamage': 오버로드된 함수에 대한 호출이 모호합니다.
+  (소스 파일 '/Contents/Creature/HopGoblin.cpp'을(를) 컴파일하는 중)
+  D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Creature.h(17,15):
+  'void Creature::TakeDamage(int,std::shared_ptr<Creature>)'일 수 있습니다.
+  D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Creature.h(16,15):
+  또는       'void Creature::TakeDamage(int,Creature *)'
+  D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\HopGoblin.cpp(21,9):
+  인수 목록 '(int)'을(를) 일치시키는 동안
+  
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   Monster.cpp
   Player.cpp
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Player.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Player.cpp(53,18): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Player.cpp(54,14): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Player.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Player.cpp(53,18): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Contents/Creature/Player.cpp'을(를) 컴파일하는 중)
+  
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\Creature\Player.cpp(54,14): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Contents/Creature/Player.cpp'을(를) 컴파일하는 중)
+  
   World_1.cpp
-D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\World\World_1.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Change_Shared_Ptr\Battle\Battle\Contents\World\World_1.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   코드를 생성하고 있습니다...
