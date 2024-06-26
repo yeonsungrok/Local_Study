@@ -55,6 +55,16 @@ void Creature::TakeDamage(int amount, Creature* attacker)
 	PrintInfo();
 }
 
+void Creature::TakeDamage(int amount, shared_ptr<Creature> attacker)
+{
+
+}
+
+
+
+
+
+
 bool Creature::IsDead()
 {
 	if (_curHp <= 0)

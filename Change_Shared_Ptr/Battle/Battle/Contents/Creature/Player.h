@@ -6,6 +6,7 @@ public:
 	virtual ~Player();
 
 	void MultiAttack(vector<Creature*> arr);
+	void MultiAttack(vector<shared_ptr<Creature>> arr);
 	void GainExp(int exp);
 	void LevelUp();
 

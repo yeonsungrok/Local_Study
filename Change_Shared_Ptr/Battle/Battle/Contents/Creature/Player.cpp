@@ -20,6 +20,18 @@ void Player::MultiAttack(vector<Creature*> arr)
 	}
 }
 
+void Player::MultiAttack(vector<shared_ptr<Creature>> arr)
+{
+
+	for (int i = 0; i < arr.size(); i++)
+	{
+		this->Attack(arr[i]);
+	}
+
+}
+
+
+
 void Player::GainExp(int exp)
 {
 	if (exp <= 0)
