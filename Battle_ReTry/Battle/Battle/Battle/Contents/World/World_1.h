@@ -17,10 +17,15 @@ public:
 
 private:
 	Creature* _player1;
-	//const int multyplayer = 10;
+
 	vector<Creature*> _Goblin;
 
 	vector<Creature*> _players;
 	Creature* _hobgoblin;
+
+	shared_ptr<Creature> _hobgoblin;
+	vector<shared_ptr<Creature>> _players;
+	// dynamic_cast를 사용할땐 virtual function table이 필요하다. (가상함수테이블)
+	// 값이 없을때는 nullptr을 뱉어낸다. 
 };
 

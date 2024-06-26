@@ -4,14 +4,16 @@
 HobGoblin::HobGoblin(string name, int hp, int atk)
 :Monster(name, hp, atk)
 {
+	
 }
 
 HobGoblin::~HobGoblin()
 {
 }
 
-void HobGoblin::MultyAttack(Creature* creature)
+void HobGoblin::MultyAttack(Creature* creature, int amount)
 {
+
 	
 	
 }

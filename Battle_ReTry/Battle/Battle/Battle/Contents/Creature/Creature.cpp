@@ -28,7 +28,7 @@ void Creature::PreAttack(Creature* other)
 
 void Creature::TakeDamage(int amount)
 {
-	//_dmg += amount;
+	/*_dmg += amount;*/
 	_curHp -= amount;
 
 	if (_curHp < 0)
@@ -37,10 +37,14 @@ void Creature::TakeDamage(int amount)
 	PrintInfo();
 }
 
-void Creature::Damage(Creature* attacker, int amount)
-{
-	attacker->_dmg; //+= amount;
-	
-}
-
+//void Creature::Damage(Creature* attacker, int amount)
+//{
+//	//Player* pPlys = dynamic_cast<>();
+//	//Attack(attacker);
+//
+//
+//	amount += _dmg; //+= amount;
+//	
+//}
+//
 

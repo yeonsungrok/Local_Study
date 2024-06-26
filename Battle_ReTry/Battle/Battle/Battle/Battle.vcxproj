@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Contents\BattleSystem\AggroSystem.cpp" />
     <ClCompile Include="Contents\Creature\Archer.cpp" />
     <ClCompile Include="Contents\Creature\Creature.cpp" />
     <ClCompile Include="Contents\Creature\Knight.cpp" />
@@ -170,6 +171,7 @@
     <ClCompile Include="Contents\World\World_1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Contents\BattleSystem\AggroSystem.h" />
     <ClInclude Include="Contents\Creature\Archer.h" />
     <ClInclude Include="Contents\Creature\Creature.h" />
     <ClInclude Include="Contents\Creature\Monster.h" />

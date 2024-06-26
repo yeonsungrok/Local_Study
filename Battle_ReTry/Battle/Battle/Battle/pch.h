@@ -4,6 +4,8 @@
 #include <vector>
 #include <algorithm>
 #include <string>
+#include <unordered_map>
+#include <memory>
 
 using namespace std;
 
@@ -19,6 +21,7 @@ using namespace std;
 #include "Contents/Creature/Creature.h"
 #include "Contents/Creature/Player.h"
 #include "Contents/Creature/Monster.h"
+#include "Contents/BattleSystem/AggroSystem.h"
 
 #include "Contents/Creature/Knight.h"
 #include "Contents/Creature/Archer.h"

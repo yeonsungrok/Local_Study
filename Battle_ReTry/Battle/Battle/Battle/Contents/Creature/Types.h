@@ -1,5 +1,6 @@
 #pragma once
 
+
 struct AggroInfo
 {
 	Player* player;

@@ -9,10 +9,13 @@ public:
 	//void Attack_Hob();
 
 	//vector<>
-	void MultyAttack(Creature* creature);
+	void MultyAttack(Creature* creature, int amout);
 	
 	//Tabe..
 	//vector<class AggroInfo> _aggroTable;
 	
+	//디자인 패턴...    컴포넌트.
+	AggroSystem* _aggroSystem;
+	int _attackRange = 4;
 };
 

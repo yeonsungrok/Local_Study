@@ -43,12 +43,14 @@ World_1::~World_1()
 	
 
 	// 보스
-	delete _hobgoblin;
+	if(_hobgoblin != nullptr)
+		delete _hobgoblin;
 
 	// 플레이어들 1~10
 	for (int i = 0; i < _players.size(); i++)
 	{
-		delete _players[i];
+		if(_players[i] != nullptr)
+			delete _players[i];
 	}
 
 }
@@ -95,11 +97,11 @@ void World_1::Battle2()
 
 void World_1::Battle3()
 {
-	for (int i = 0; i < _players.size(); ++i)
+	/*for (auto _players : )
 	{
 		_players[i]->Attack(_hobgoblin);
 
-	}
+	}*/
 
 }
 
