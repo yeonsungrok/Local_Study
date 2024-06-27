@@ -10,10 +10,11 @@ Monster::~Monster()
 {
 }
 
-void Monster::Attack(Creature* other)
+void Monster::Attack(shared_ptr<Creature> other)
 {
 	if (this->IsDead()) return;
 	this->Creature::PreAttack(other);
 
+	auto self_shared = shared_from_this();
 	other->TakeDamage(_atk);
 }

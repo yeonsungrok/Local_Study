@@ -1,2 +1,19 @@
-﻿  Creature.cpp
-  Battle.vcxproj -> D:\C언어\SGA_성남\SGA_2024\SGA_06\LOCALSTUDY_0627\Local_Study\Battle_0627\x64\Debug\Battle.exe
+﻿  pch.cpp
+  Archer.cpp
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Battle_0627\Battle\Contents\Creature\Archer.cpp(24,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Contents/Creature/Archer.cpp'을(를) 컴파일하는 중)
+  
+  Creature.cpp
+  Knight.cpp
+  Mage.cpp
+  Goblin.cpp
+  HobGoblin.cpp
+  main.cpp
+D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Battle_0627\Battle\main.cpp(40,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/main.cpp'을(를) 컴파일하는 중)
+  
+  Monster.cpp
+  Player.cpp
+  World.cpp
+  코드를 생성하고 있습니다...
+  Battle.vcxproj -> D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Battle_0627\x64\Debug\Battle.exe

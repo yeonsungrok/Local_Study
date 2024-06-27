@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <string>
 #include <unordered_map>
-#include <memory>
+#include <memory.h>
 
 using namespace std;
 
@@ -18,10 +18,11 @@ using namespace std;
 // 폴더화 시켰을 떄
 // 프로젝트 속성 -> VC++디렉토리 -> 포함디렉토리 편집 -> $(ProjectDir) 적용
 
+#include "Contents/BattleSystem/AggroSystem.h"
+
 #include "Contents/Creature/Creature.h"
 #include "Contents/Creature/Player.h"
 #include "Contents/Creature/Monster.h"
-#include "Contents/BattleSystem/AggroSystem.h"
 
 #include "Contents/Creature/Knight.h"
 #include "Contents/Creature/Archer.h"
@@ -32,4 +33,4 @@ using namespace std;
 #include "Contents/World/World.h"
 #include "Contents/World/World_1.h"
 
-#include "Contents/Creature/Types.h"
+#include "Types.h"

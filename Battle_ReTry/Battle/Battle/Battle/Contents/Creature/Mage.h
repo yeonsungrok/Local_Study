@@ -7,7 +7,7 @@ public:
 	virtual ~Mage();
 
 	// Player을(를) 통해 상속됨
-	virtual void Attack(Creature* other) override;
+	virtual void Attack(shared_ptr<Creature> other) override;
 private:
 };
 

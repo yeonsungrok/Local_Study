@@ -10,10 +10,10 @@ Mage::~Mage()
 {
 }
 
-void Mage::Attack(Creature* other)
+void Mage::Attack(shared_ptr<Creature> other)
 {
 	if (this->IsDead()) return;
 	this->Creature::PreAttack(other);
-	other->TakeDamage(_atk);
+	other->TakeDamage(_atk, shared_from_this());
 	
 }

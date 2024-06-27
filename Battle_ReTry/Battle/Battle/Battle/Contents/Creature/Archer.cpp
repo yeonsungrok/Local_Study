@@ -10,7 +10,7 @@ Archer::~Archer()
 {
 }
 
-void Archer::Attack(Creature* other)
+void Archer::Attack(shared_ptr<Creature> other)
 {
 	// 30프로 확률
 	// 0~100까지의 난수를 뽑고
@@ -21,12 +21,12 @@ void Archer::Attack(Creature* other)
 	float ratio = num / (float)100;
 	if (ratio < 0.3f)
 	{
-		other->TakeDamage(_atk * 3.0f);
+		other->TakeDamage(_atk * 3.0f, shared_from_this());
 		
 	}
 	else
 	{
-		other->TakeDamage(_atk);
+		other->TakeDamage(_atk, shared_from_this());
 		
 	}
 }

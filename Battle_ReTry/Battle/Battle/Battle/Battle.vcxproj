@@ -167,7 +167,9 @@
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="Contents\Creature\Player.cpp" />
-    <ClCompile Include="Contents\World\World.cpp" />
+    <ClCompile Include="Contents\World\World.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Contents\World\World_1.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -179,10 +181,12 @@
     <ClInclude Include="Contents\Creature\Goblin.h" />
     <ClInclude Include="Contents\Creature\Mage.h" />
     <ClInclude Include="Contents\Creature\HobGoblin.h" />
-    <ClInclude Include="Contents\Creature\Types.h" />
+    <ClInclude Include="Types.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Contents\Creature\Player.h" />
-    <ClInclude Include="Contents\World\World.h" />
+    <ClInclude Include="Contents\World\World.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Contents\World\World_1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

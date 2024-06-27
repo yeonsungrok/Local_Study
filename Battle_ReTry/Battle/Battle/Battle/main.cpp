@@ -53,17 +53,17 @@ int main()
 	}
 	delete world;*/
 
-	World_1* world = new World_1();
+	shared_ptr<World_1> world = make_shared<World_1>();
 
 	while (true)
 	{
-		world->Battle3();
+		world->Battle1();
 
 		if (world->End())
 			break;
 		
 	}
-	delete world;
+	
 
 	return 0;
 }

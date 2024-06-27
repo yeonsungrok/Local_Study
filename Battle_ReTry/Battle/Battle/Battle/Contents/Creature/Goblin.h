@@ -3,9 +3,9 @@
 class Goblin : public Monster
 {
 public:
-	Goblin(string name, int hp, int atk);
+	Goblin();
 	~Goblin();
 
-	virtual void Attack(Creature* other) override;
+	virtual void Attack(shared_ptr<Creature> other) override;
 };
 
