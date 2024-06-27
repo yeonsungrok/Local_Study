@@ -1,33 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\",
+  "WorkspaceRootPath": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Scene\\LineScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Rect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Framework\\Rect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Scene\\LineScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Framework\\Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\PaintScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Scene\\PaintScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Framework\\Line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\PaintScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Scene\\PaintScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\CollisionScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Scene\\CollisionScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Program\\Program.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Program\\Program.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\CollisionScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Scene\\CollisionScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\CollisionScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Scene\\CollisionScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Rect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Framework\\Rect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Framework\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Framework\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Framework\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Scene\\LineScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Scene\\LineScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Framework\\Line.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8E729FF3-9DBA-4885-A0ED-FF31FD9231FB}|WINAPI_Algorithm\\WINAPI_Algorithm.vcxproj|solutionrelative:WINAPI_Algorithm\\Framework\\Line.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -37,105 +77,222 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 159,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 184,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "pch.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\pch.h",
-              "RelativeDocumentMoniker": "WINAPI_Algorithm\\pch.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\pch.h",
-              "RelativeToolTip": "WINAPI_Algorithm\\pch.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Title": "PaintScene.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\PaintScene.h",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Scene\\PaintScene.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\PaintScene.h",
+              "RelativeToolTip": "WINAPI_Algorithm\\Scene\\PaintScene.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-27T06:54:50.758Z",
+              "WhenOpened": "2024-06-27T09:13:21.389Z",
               "EditorCaption": ""
             },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CollisionScene.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\CollisionScene.h",
-              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Scene\\CollisionScene.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\CollisionScene.h",
-              "RelativeToolTip": "WINAPI_Algorithm\\Scene\\CollisionScene.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-27T06:53:33.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LineScene.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.h",
-              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Scene\\LineScene.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.h",
-              "RelativeToolTip": "WINAPI_Algorithm\\Scene\\LineScene.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-27T06:23:05.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Line.h",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.h",
-              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Line.h",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.h",
-              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Line.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-27T06:23:03.684Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 241,
-          "SelectedChildIndex": 2,
-          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Program\\Program.cpp",
-              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Program\\Program.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Program\\Program.cpp",
-              "RelativeToolTip": "WINAPI_Algorithm\\Program\\Program.cpp",
+              "Title": "Program.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Program\\Program.h",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Program\\Program.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Program\\Program.h",
+              "RelativeToolTip": "WINAPI_Algorithm\\Program\\Program.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-27T06:50:31.773Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T09:11:12.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Circle.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Circle.h",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Circle.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Circle.h",
+              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Circle.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T09:05:52.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rect.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Rect.h",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Rect.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Rect.h",
+              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Rect.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T09:04:43.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Vector2.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Vector2.h",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Vector2.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Vector2.h",
+              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Vector2.h",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T09:02:36.037Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Line.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.cpp",
-              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Line.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.cpp",
-              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Line.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "pch.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\pch.h",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\pch.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\pch.h",
+              "RelativeToolTip": "WINAPI_Algorithm\\pch.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T06:54:50.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CollisionScene.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\CollisionScene.h",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Scene\\CollisionScene.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\CollisionScene.h",
+              "RelativeToolTip": "WINAPI_Algorithm\\Scene\\CollisionScene.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T06:53:33.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LineScene.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.h",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Scene\\LineScene.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.h",
+              "RelativeToolTip": "WINAPI_Algorithm\\Scene\\LineScene.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T06:23:05.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Line.h",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.h",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Line.h",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.h",
+              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Line.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-27T06:23:03.684Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 216,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaintScene.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\PaintScene.cpp",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Scene\\PaintScene.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\PaintScene.cpp",
+              "RelativeToolTip": "WINAPI_Algorithm\\Scene\\PaintScene.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-27T06:22:56.114Z",
+              "WhenOpened": "2024-06-27T09:12:51.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CollisionScene.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\CollisionScene.cpp",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Scene\\CollisionScene.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\CollisionScene.cpp",
+              "RelativeToolTip": "WINAPI_Algorithm\\Scene\\CollisionScene.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-27T09:07:04.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Circle.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Circle.cpp",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Circle.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Circle.cpp",
+              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Circle.cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-27T09:05:04.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LineScene.cpp",
-              "DocumentMoniker": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.cpp",
-              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Scene\\LineScene.cpp",
-              "ToolTip": "D:\\C\uC5B8\uC5B4\\SGA_\uC131\uB0A8\\SGA_2024\\SGA_06\\LOCALSTUDY_0627\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.cpp",
-              "RelativeToolTip": "WINAPI_Algorithm\\Scene\\LineScene.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "Rect.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Rect.cpp",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Rect.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Rect.cpp",
+              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Rect.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-27T06:22:57.141Z",
+              "WhenOpened": "2024-06-27T09:04:30.605Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Vector2.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Vector2.cpp",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Vector2.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Vector2.cpp",
+              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Vector2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-27T09:02:30.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Program\\Program.cpp",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Program\\Program.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Program\\Program.cpp",
+              "RelativeToolTip": "WINAPI_Algorithm\\Program\\Program.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-27T06:50:31.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Line.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.cpp",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Framework\\Line.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Framework\\Line.cpp",
+              "RelativeToolTip": "WINAPI_Algorithm\\Framework\\Line.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-27T06:22:56.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LineScene.cpp",
+              "DocumentMoniker": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.cpp",
+              "RelativeDocumentMoniker": "WINAPI_Algorithm\\Scene\\LineScene.cpp",
+              "ToolTip": "D:\\YeonSungRok\\SGA\uC11C\uC6B8\uAC8C\uC784\uC544\uCE74\uB370\uBBF8\\Local_Study\\WINAPI_Algorithm\\WINAPI_Algorithm\\Scene\\LineScene.cpp",
+              "RelativeToolTip": "WINAPI_Algorithm\\Scene\\LineScene.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-27T06:22:57.141Z"
             }
           ]
         }
