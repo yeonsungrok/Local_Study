@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
 #include "Engine/GameInstance.h"
 #include "MyStatComponent.h"
 
@@ -11,8 +12,14 @@
  * 
  */
 class AMyUIManager;
+class AMyEffectManager;
+
+class AMySoundManager;
 
 #define UIManager Cast<UMyGameInstance>(GetGameInstance())->GetUIManager()
+#define EffectManager Cast<UMyGameInstance>(GetGameInstance())->GetEffectManager()
+
+#define SoundManager Cast<UMyGameInstance>(GetGameInstance())->GetSoundManager()
 
 UCLASS()
 
@@ -27,14 +34,23 @@ public:
 	virtual void Init() override;
 
 	FMyStatData* GetStatDataByLevel(int level);
+
 	AMyUIManager* GetUIManager() { return _uiManager; }
+	AMyEffectManager* GetEffectManager() { return _effectManager; }
+	AMySoundManager* GetSoundManager() { return _soundManager; }
 
 private:
 	UPROPERTY()
 	class UDataTable* _statTable;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	class AMyUIManager* _uiManager;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	AMyEffectManager* _effectManager;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	AMySoundManager* _soundManager;
 
 
 };

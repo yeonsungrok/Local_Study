@@ -16,7 +16,7 @@ class UE5_CHARACTER_02_API UMyInvenWidget : public UUserWidget
 		
 	
 public:
-	//// ÀÎº¥Åä¸® Ç¥½Ã »óÅÂ¸¦ º¯°æÇÏ´Â ÇÔ¼ö
+	//// ï¿½Îºï¿½ï¿½ä¸® Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½Â¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Ô¼ï¿½
 	//void ToggleVisibility(bool bIsVisible);
 
 public:
@@ -27,7 +27,7 @@ public:
 
 public:
 	UPROPERTY(meta = (BindWidget))
-	class UUniformGridPanel* SlotGrid; // bp ³×ÀÓ°ú °°ÀÌ!
+	class UUniformGridPanel* SlotGrid; // bp ï¿½ï¿½ï¿½Ó°ï¿½ ï¿½ï¿½ï¿½ï¿½!
 
 	UPROPERTY(meta = (BindWidget))
 	class UButton* DropBtn;
@@ -35,7 +35,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<class UButton*> _slotBtns;
 	
-	//ÀÌ¹ÌÁö
+	//ï¿½Ì¹ï¿½ï¿½ï¿½
 	TArray<class UImage*> _slotBtnImages;
 	class UTexture2D* _axe;
 	class UTexture2D* _default;

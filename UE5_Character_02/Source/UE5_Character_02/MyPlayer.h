@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "MyCharacter.h"
+
 #include "MyPlayer.generated.h"
+
 
 /**
  * 
@@ -24,12 +26,19 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 
+
+	virtual void AttackHit() override;
+protected:
+	virtual void PlayAttackHitSound(FString SoundName, FVector location) override;
+	
+
 private:
 	void Move(const FInputActionValue& value);
 	void Look(const FInputActionValue& value);
 	void JumpA(const FInputActionValue& value);
 	void AttackA(const FInputActionValue& value);
 
+	
 public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
@@ -44,14 +53,17 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* _attackAction;
 
-	//GÅ° µå¶ø¾×¼Ç
+	//GÅ° ï¿½ï¿½ï¿½ï¿½×¼ï¿½
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* _dropAction;
 
-	// Ä«¸Þ¶ó(springArms Æ÷ÇÔ)
+	// Ä«ï¿½Þ¶ï¿½(springArms ï¿½ï¿½ï¿½ï¿½)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* _springArm;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* _camera;
+
+
+
 
 };

@@ -45,7 +45,7 @@ void UBT_Task_Attack::TickTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMem
 		FinishLatentTask(OwnerComp, EBTNodeResult::Succeeded);
 
 
-	// ¸ó½ºÅÍ ¹æÇâÇÏ·Á¸é Tick¿¡´Ù°¡ ³Ö¾î¾ßÇÔ. (ÇöÀç BB¾È¿¡ ³ëµå·Î »ç¿ëÇÔ)
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ Tickï¿½ï¿½ï¿½Ù°ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½. (ï¿½ï¿½ï¿½ï¿½ BBï¿½È¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½)
 
 
 }

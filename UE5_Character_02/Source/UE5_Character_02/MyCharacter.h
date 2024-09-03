@@ -5,7 +5,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "MyStatComponent.h"
-#include "MyInvenComponent.h" // ÀÎº¥Åä¸® Ãß°¡
+
+
+#include "MyInvenComponent.h" // ï¿½Îºï¿½ï¿½ä¸® ï¿½ß°ï¿½
 
 #include "MyCharacter.generated.h"
 
@@ -17,6 +19,8 @@ struct FInputActionValue;
 
 DECLARE_MULTICAST_DELEGATE(Delegate_AttackEnded);
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDelegate_AttackHit);
+
 UCLASS()
 class UE5_CHARACTER_02_API AMyCharacter : public ACharacter
 {
@@ -24,7 +28,7 @@ class UE5_CHARACTER_02_API AMyCharacter : public ACharacter
 
 
 	
-public: //Ä³¸¯ÅÍ ±âº»»ý¼º
+public: //Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½âº»ï¿½ï¿½ï¿½ï¿½
 	// Sets default values for this character's properties
 	AMyCharacter();
 
@@ -35,18 +39,18 @@ protected:
 
 public:	
 		
-	// °ø°Ý ¹Þ´Â°ÍÀÌ TakeDamage , DamageCauser = °ø°ÝÇÑ¾Ö°¡ ´©±¸ÀÎÁö
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´Â°ï¿½ï¿½ï¿½ TakeDamage , DamageCauser = ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾Ö°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	virtual float TakeDamage
 	(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser) override;
 
 	UFUNCTION()
 	void OnAttackEnded(class UAnimMontage* Montage, bool bInterrupted);
 
-	//¾Ö´Ô ºí·çÇÁ¸°Æ® ¸ùÅ¸ÁÖ ³ëÆ¼ÆÄÀÌÃß°¡ÇÏ±âÀ§ÇÔ
+	//ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½Æ¼ï¿½ï¿½ï¿½ï¿½ï¿½ß°ï¿½ï¿½Ï±ï¿½ï¿½ï¿½ï¿½ï¿½
 	UFUNCTION()
-	void AttackHit();
+	virtual void AttackHit();
 	
-	// state °ü·Ã
+	// state ï¿½ï¿½ï¿½ï¿½
 	int GetCurHp() { return _statCom->GetCurHp(); }
 	void AddAttackDamage(AActor* actor, int amount);
 
@@ -56,15 +60,32 @@ public:
 
 
 	Delegate_AttackEnded _attackEndedDelegate;
-	
-protected: //ÀÌµ¿ ±âº»»ý¼º
+			
+	UPROPERTY(EditAnywhere, BlueprintAssignable, Category = Event, meta = (AllowPrivateAccess = "true"))
+	FDelegate_AttackHit _attackHitEvent;
+
+	virtual void PlayAttackHitSound(FString SoundName, FVector location);
+
+
+
+
+protected: 
 	virtual void Init();
 
 	UFUNCTION()
 	virtual void Disable();
 
+
 public:
-	
+
+
+	//// Sound ::::::  Playerï¿½ï¿½ Monsterï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ò¼ï¿½ï¿½Öµï¿½ï¿½ï¿½
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Sound)
+	//AMySoundManager* _soundManager;
+
+
+
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	bool _isAttacking = false;
 
@@ -77,10 +98,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	float _horizontal = 0.0f;
 
-	
+	// AttackHitPoint (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® : ï¿½Â¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = AttackHit, meta = (AllowPrivateAccess = "true"))
+	FVector _hitPoint;
 
 
-	//¾Ö´Ï¸ÞÀÌ¼Ç
+	//ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UMyAnimInstance* _animInstance;
 
@@ -106,20 +129,14 @@ public:
 
 
 	// Particle
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Particle, meta = (AllowPrivateAccess = "true"))
-	class UParticleSystem* _particle;
+	/*UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Particle, meta = (AllowPrivateAccess = "true"))
+	class UParticleSystem* _particle;*/
 
 
-
-//	// Niagara
-//	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Niagara, meta = (AllowPrivateAccess = "true"))
-//	class UNiagaraSystem* _vfx;
-//private:
-//	UPROPERTY()
-//	class UNiagaraComponent* _niagaraComponent;
-//
-//	void PlayNiagaraEffect();
-
+	// BP : Master setting
+	// Arrow
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Projectile, meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<class AMyPtojectile> _projectileclass;
 
 };
 

@@ -4,10 +4,12 @@
 #include "MyGameInstance.h"
 
 #include "MyUIManager.h"
+#include "MyEffectManager.h"
+#include "MySoundManager.h"
 
 UMyGameInstance::UMyGameInstance()
 {
-	//»ý¼ºÀÚ¿¡¼­ ¾ð¸®¾ó¿¡¼­ ¸¸µç µ¥ÀÌÅÍ¸¦ °®°í¿Í¾ßÇÑ´Ù. ¿¹) level
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ð¸®¾ó¿¡¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½Í¾ï¿½ï¿½Ñ´ï¿½. ï¿½ï¿½) level
 	static ConstructorHelpers::FObjectFinder<UDataTable> dataTable
 	(TEXT("/Script/Engine.DataTable'/Game/Data/MyStatDataTable.MyStatDataTable'"));
 
@@ -16,6 +18,10 @@ UMyGameInstance::UMyGameInstance()
 		_statTable = dataTable.Object;
 		UE_LOG(LogTemp, Error, TEXT("StatTable Load Complete"));
 	}
+
+	
+
+
 }
 
 void UMyGameInstance::Init()
@@ -27,14 +33,24 @@ void UMyGameInstance::Init()
 	, statData->level, statData->maxHp, statData->attack);
 
 	FActorSpawnParameters params;
-	params.Name = TEXT("UIManager"); // ¾ð¸®¾ó ¿¡µðÅÍ¿¡¼­ º¸ÀÌ´Â ÀÌ¸§
+	params.Name = TEXT("UIManager"); // ï¿½ð¸®¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½Ì¸ï¿½
 	_uiManager = GetWorld()->SpawnActor<AMyUIManager>(FVector::ZeroVector, FRotator::ZeroRotator, params);
+
+	// EffectManager
+	params.Name = TEXT("EffectManager");
+	_effectManager = GetWorld()->SpawnActor<AMyEffectManager>(FVector::ZeroVector, FRotator::ZeroRotator, params);
+
+	// SoundManager
+	params.Name = TEXT("SoundManager");
+	_soundManager = GetWorld()->SpawnActor<AMySoundManager>(FVector::ZeroVector, FRotator::ZeroRotator, params);
+
+	
 
 }
 
 FMyStatData* UMyGameInstance::GetStatDataByLevel(int level)
 {
-	auto statData = _statTable->FindRow<FMyStatData>(*FString::FromInt(level), TEXT("")); // int¸¦ stringÀ¸·Î °®°í¿È
+	auto statData = _statTable->FindRow<FMyStatData>(*FString::FromInt(level), TEXT("")); // intï¿½ï¿½ stringï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	return statData;
 }

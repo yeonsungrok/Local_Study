@@ -22,19 +22,20 @@ AMyAIController::AMyAIController()
 		_bt = BT.Object;
 	}
 }
-// Possess  :  ÄÁÆ®·Ñ·¯°¡ Æù¿¡ ºùÀÇÇÏ´Â °Í
+// Possess  :  ï¿½ï¿½Æ®ï¿½Ñ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½
 void AMyAIController::OnPossess(APawn* InPawn)
 {
 	Super::OnPossess(InPawn);
 
-	// RandMove¸¦ 3.0f Áï 3ÃÊ¸¶´Ù ·çÇÁµÇ´Â °Í.
+	// RandMoveï¿½ï¿½ 3.0f ï¿½ï¿½ 3ï¿½Ê¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½.
 	// GetWorld()->GetTimerManager().SetTimer(_timerHandle, this, &AMyAIController::RandMove, 3.0f, true);
 
-	UBlackboardComponent* temp = Blackboard;
-	if (UseBlackboard(_bb, temp))
+	UBlackboardComponent* bloackBoardComponent = Blackboard;
+	if (UseBlackboard(_bb, bloackBoardComponent))
 	{
 		if (RunBehaviorTree(_bt))
 		{
+			bloackBoardComponent->SetValueAsVector(FName("FixedPos"), InPawn->GetActorLocation());
 			UE_LOG(LogTemp, Log, TEXT("Behavior Tree Succeeded"));
 		}
 	}
@@ -63,7 +64,7 @@ void AMyAIController::RandMove()
 
 	FNavLocation randLocation;
 
-	// AIµé ÀÚµ¿ ¿òÁ÷ÀÌµµ·Ï (Nav Mesh Bounce VoulumeÀ» ¾ð¸®¾ó¿¡¼­ ±ò¾ÆµÎ°í ÇÔ)
+	// AIï¿½ï¿½ ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ (Nav Mesh Bounce Voulumeï¿½ï¿½ ï¿½ð¸®¾ó¿¡¼ï¿½ ï¿½ï¿½ÆµÎ°ï¿½ ï¿½ï¿½)
 	if (naviSystem->GetRandomPointInNavigableRadius(currentPawn->GetActorLocation(), 500.0f, randLocation))
 	{
 		UAIBlueprintHelperLibrary::SimpleMoveToLocation(this, randLocation);

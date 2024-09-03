@@ -3,8 +3,14 @@
 
 #include "MyMonsters.h"
 
+#include "MyGameInstance.h"
+
 #include "MyAIController.h"
 #include "MyAnimInstance.h"
+#include "Kismet/GameplayStatics.h"
+
+#include "MySoundManager.h"
+
 
 AMyMonsters::AMyMonsters()
 {
@@ -36,6 +42,27 @@ void AMyMonsters::Attack_AI()
 		_curAttackIndex++;
 
 		_animInstance->JumpToSection(_curAttackIndex);
+		
 	}
 }
+
+
+void AMyMonsters::PlayAttackHitSound(FString SoundName, FVector location)
+{
+	Super::PlayAttackHitSound(SoundName, location);
+
+	/*UGameplayStatics::execSpawnSoundAtLocation();*/
+	if(SoundManager)
+	{
+		SoundManager->PlaySound("MonsterDamageCue", location);
+	}
+
+}
+
+void AMyMonsters::AttackHit()
+{
+	Super::AttackHit();
+
+}
+
 

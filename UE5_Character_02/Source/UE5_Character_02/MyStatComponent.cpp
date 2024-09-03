@@ -51,7 +51,7 @@ void UMyStatComponent::SetLevelAndInit(int level)
 		_curHp = _maxHp;
 
 		GetOwner()->GetName();
-		UE_LOG(LogTemp, Log, TEXT("%s...hp : %d, attackDamage : %d"), *GetOwner()->GetName(), _maxHp, _attackDamage);
+		//UE_LOG(LogTemp, Log, TEXT("%s...hp : %d, attackDamage : %d"), *GetOwner()->GetName(), _maxHp, _attackDamage);
 	}
 }
 

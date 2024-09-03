@@ -4,7 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "MyCharacter.h"
+
+
 #include "MyMonsters.generated.h"
+
 
 /**
  * 
@@ -23,5 +26,13 @@ public:
 	// TODO : Monster
 	UFUNCTION()
 	void Attack_AI();
+
+	virtual void AttackHit() override;
+
+
+
+protected:
+	virtual void PlayAttackHitSound(FString SoundName, FVector location) override;
+
 
 };

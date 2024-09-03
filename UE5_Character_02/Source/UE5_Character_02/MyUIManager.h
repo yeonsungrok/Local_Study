@@ -6,7 +6,16 @@
 #include "GameFramework/Actor.h"
 #include "MyUIManager.generated.h"
 
+class UUserWidget;
 class UMyInvenWidget;
+
+UENUM()
+enum class UIType : int32
+{
+	CrossHair,
+	Inventory
+};
+
 
 UCLASS()
 class UE5_CHARACTER_02_API AMyUIManager : public AActor
@@ -25,11 +34,23 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void OpenWidget(UIType type);
+	void CloseWidget(UIType type);
+	void CloseAll();
+
 	UMyInvenWidget* GetInvenUI() { return _invenWidget; }
+	UUserWidget* GetCrossHair() { return _crossHair; }
 
 private:
-	// // UI 인벤 위젯 (컴포넌트가 아니라 그대로 불러옴)
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Stat, meta = (AllowPrivateAccess = "true"))
+
+	UPROPERTY()
+	TArray <UUserWidget*> _widgets;
+
+	// // UI 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = UI, meta = (AllowPrivateAccess = "true"))
 	UMyInvenWidget* _invenWidget;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = UI, meta = (AllowPrivateAccess = "true"))
+	UUserWidget* _crossHair;
 
 };

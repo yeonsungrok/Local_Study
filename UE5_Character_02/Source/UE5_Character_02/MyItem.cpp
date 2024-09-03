@@ -2,14 +2,14 @@
 
 
 #include "MyItem.h"
-#include "Components/StaticMeshComponent.h" // ¸Þ½Ã ÄÄÆ÷³ÍÆ®¶§¸ÅÇÔ..
+#include "Components/StaticMeshComponent.h" // ï¿½Þ½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..
 #include "Components/SphereComponent.h"
 #include "MyCharacter.h"
 // Sets default values
 AMyItem::AMyItem()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = false; // °è¼Ó ¾øµ¥ÀÌÆ® ½Ã°£ÀÌ °É¸®¹Ç·Î false..
+	PrimaryActorTick.bCanEverTick = false; // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½É¸ï¿½ï¿½Ç·ï¿½ false..
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> sm
 	(TEXT("/Script/Engine.StaticMesh'/Game/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Axe.SM_Axe'"));
 
@@ -20,7 +20,7 @@ AMyItem::AMyItem()
 	{
 		_meshComponent->SetStaticMesh(sm.Object);
 
-		//»çÀÌÁî Å°¿ì±â
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å°ï¿½ï¿½ï¿½
 		//_meshComponent->SetWorldScale3D(FVector(2.0f, 2.0f, 2.0f));
 		
 	}
@@ -29,7 +29,7 @@ AMyItem::AMyItem()
 	_trigger->SetupAttachment(_meshComponent);
 
 
-	_meshComponent->SetCollisionProfileName(TEXT("MyItem"));  // ÄÝ¸®Àüµµ ¹Ù²Ù±âÀ§ÇÔ
+	_meshComponent->SetCollisionProfileName(TEXT("MyItem"));  // ï¿½Ý¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù²Ù±ï¿½ï¿½ï¿½ï¿½ï¿½
 	_trigger->SetCollisionProfileName(TEXT("MyItem"));
 	_trigger->SetSphereRadius(60.0f);
 
@@ -56,16 +56,16 @@ void AMyItem::OnMyCharacterOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 	if (myCharacter)
 	{
 		UE_LOG(LogTemp, Log, TEXT(" % s Collision"), *myCharacter->GetName());
-		// myCharacter Å¬·¡½ºÀÇ °´Ã¼°¡ Ãæµ¹Çß´Ù.
+		// myCharacter Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½æµ¹ï¿½ß´ï¿½.
 
-		// ¾ÆÀÌÅÛ Ãæµ¹½Ã µ¥¹ÌÁö»ó½Â
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½æµ¹ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		myCharacter->AddAttackDamage(this, 50);
 		UE_LOG(LogTemp, Warning, TEXT("Attack Damage +50"));
 		
 
 		myCharacter->AddItemToCharacter(this);
 
-		// ¾ÆÀÌÅÛ Ãæµ¹½Ã ¾ÆÀÌÅÛ È÷µç
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½æµ¹ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		Disable();
 
 	}

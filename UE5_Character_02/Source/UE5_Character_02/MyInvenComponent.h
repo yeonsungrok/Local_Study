@@ -32,9 +32,9 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	
-	// ¾ÆÀÌÅÛ Ãß°¡
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 	void AddItem(class AMyItem* item);
-	// ¾ÆÀÌÅÛ µå¶ø
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 	UFUNCTION()
 	void DropItem();
 
@@ -42,7 +42,7 @@ public:
 	
 	//ItemDroped _itemDropedEvent;
 	
-	// µ¥¹ÌÁö°¨¼Ò½Ãµµ
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò½Ãµï¿½
 	bool HasItems() const { return _items.Num() > 0; }
 	
 

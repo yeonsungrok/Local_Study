@@ -33,7 +33,7 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void PostInitializeComponents() override;
 
-	UFUNCTION() // 델리게이트 사용할때 꼭 UFUNCTION 써야함.
+	UFUNCTION() // ????????? ?????? ?? UFUNCTION ?????.
 	void OnMyCharacterOverlap(UPrimitiveComponent* OverlappedComponent, AActor* otherActor, UPrimitiveComponent* otherComp, int32 otherBodyIndex, bool BFromWeep, const FHitResult& SweepResult);
 
 public:	
@@ -42,11 +42,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// 새로운 item방법
+	// ???占쏙옙? item???
 	void SetItemPos(FVector pos, FRotator rot = FRotator::ZeroRotator);
 
 	UPROPERTY(VisibleAnywhere)
-	class UStaticMeshComponent* _meshComponent; // 폰, 액터는 기몬 메쉬생성하지않는다. 캐릭터는 매쉬를 ACharacter가 만들어준다. 그래서 서브로 이것을 만들어야한다.
+	class UStaticMeshComponent* _meshComponent; // ??, ????? ??? ?????????????占쏙옙?. 占쏙옙????? ????? ACharacter?? ????????. ????? ????? ????? ?????????.
 	
 	UPROPERTY(VisibleAnywhere)
 	class USphereComponent* _trigger;

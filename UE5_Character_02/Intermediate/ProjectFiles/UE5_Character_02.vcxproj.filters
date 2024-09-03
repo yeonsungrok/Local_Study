@@ -61,6 +61,12 @@
     <ClInclude Include="..\..\Source\UE5_Character_02\MainGameMode.h">
       <Filter>Source\UE5_Character_02</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_Character_02\MyActor.cpp">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_Character_02\MyActor.h">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\UE5_Character_02\MyAIController.cpp">
       <Filter>Source\UE5_Character_02</Filter>
     </ClCompile>
@@ -77,6 +83,24 @@
       <Filter>Source\UE5_Character_02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\UE5_Character_02\MyCharacter.h">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_Character_02\MyDecalActor.cpp">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_Character_02\MyDecalActor.h">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_Character_02\MyEffect.cpp">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_Character_02\MyEffect.h">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_Character_02\MyEffectManager.cpp">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_Character_02\MyEffectManager.h">
       <Filter>Source\UE5_Character_02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\UE5_Character_02\MyGameInstance.cpp">
@@ -125,6 +149,18 @@
       <Filter>Source\UE5_Character_02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\UE5_Character_02\MyPlayerController.h">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_Character_02\MyPtojectile.cpp">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_Character_02\MyPtojectile.h">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_Character_02\MySoundManager.cpp">
+      <Filter>Source\UE5_Character_02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_Character_02\MySoundManager.h">
       <Filter>Source\UE5_Character_02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\UE5_Character_02\MyStatComponent.cpp">

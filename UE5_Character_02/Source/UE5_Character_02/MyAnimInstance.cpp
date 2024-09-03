@@ -11,7 +11,7 @@ UMyAnimInstance::UMyAnimInstance()
 {
 	static ConstructorHelpers::FObjectFinder<UAnimMontage> am
 	(TEXT("/Script/Engine.AnimMontage'/Game/BluePrint/Animations/MyAnimMongtage.MyAnimMongtage'"));
-	// 몽타주 블루프린트를 넣기위해서..
+	// 
 
 	if (am.Succeeded())
 	{
@@ -19,7 +19,7 @@ UMyAnimInstance::UMyAnimInstance()
 	}
 	//static ConstructorHelpers::FObjectFinder<UAnimMontage> dm
 	//(TEXT("/Script/Engine.AnimMontage'/Game/BluePrint/Animations/MyAnimDeathMontage.MyAnimDeathMontage'"));
-	//// Death 몽타주 블루프린트를 넣기위해서..
+	//// Death 
 	//if (dm.Succeeded())
 	//{
 	//	DeathMontage = dm.Object;

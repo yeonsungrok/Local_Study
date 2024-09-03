@@ -9,9 +9,9 @@
 
 #include "Components/CapsuleComponent.h"
 #include "MyAnimInstance.h"
-#include "Engine/DamageEvents.h"
+
 #include "MyItem.h"
-#include "Math/UnrealMathUtility.h" // srand¿¡ »ç¿ë.
+#include "Math/UnrealMathUtility.h" // srandï¿½ï¿½ ï¿½ï¿½ï¿½.
 #include "Kismet/GameplayStatics.h"
 #include "MyStatComponent.h"
 #include "MyInvenComponent.h"
@@ -24,23 +24,35 @@
 
 #include "MyAIController.h"
 
-//particle
-#include "Particles/ParticleSystem.h"
-#include "Particles/ParticleSystemComponent.h"
-#include "Kismet/GameplayStatics.h"
-#include "Engine/World.h"
+//Sound
+#include "MySoundManager.h" 
+#include "MyPlayer.h"
+#include "MyMonsters.h"
+
+
+#include "Engine/DamageEvents.h"
+////particle
+
+#include "MyEffectManager.h"
+//#include "Particles/ParticleSystem.h"
+//#include "Particles/ParticleSystemComponent.h"
+//#include "Kismet/GameplayStatics.h"
+//#include "Engine/World.h"
 
 ////Niagara
 //#include "NiagaraComponent.h"
 //#include "NiagaraFunctionLibrary.h"
 
+
+#include "MyPtojectile.h"
+
 // Sets default values
 AMyCharacter::AMyCharacter()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	
-	// skeletal Mesh¸¦ »ç¿ëÇÏ±âÀ§ÇØ ConstructorHelpers::FObjectFinder
+	// skeletal Meshï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ï¿½ï¿½ï¿½ï¿½ ConstructorHelpers::FObjectFinder
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> Gr
 	(TEXT("/Script/Engine.SkeletalMesh'/Game/ParagonGrux/Characters/Heroes/Grux/Meshes/Grux.Grux'"));
 	
@@ -51,18 +63,18 @@ AMyCharacter::AMyCharacter()
 
 	GetMesh()->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -88.0f), FRotator(0.0f, -90.0f, 0.0f));
 
-	//Ãß°¡ÇØº½
+	//ï¿½ß°ï¿½ï¿½Øºï¿½
 	RootComponent = GetCapsuleComponent();
 
 	// inven Component
 	_invenCom = CreateDefaultSubobject<UMyInvenComponent>(TEXT("Inventory"));
 	
-	// hp ¹Ù widget UI
+	// hp ï¿½ï¿½ widget UI
 	_hpbarWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("HpBar"));
 	_hpbarWidget->SetupAttachment(GetMesh());
-	_hpbarWidget->SetWidgetSpace(EWidgetSpace::Screen); // EWidgetSpace::World°¡ ÀÖ°í ScreenÀÌ ÀÖ´Âµ¥ ¿ëµµ¿¡ µû¶ó ´Ù¸£´Ù.
+	_hpbarWidget->SetWidgetSpace(EWidgetSpace::Screen); // EWidgetSpace::Worldï¿½ï¿½ ï¿½Ö°ï¿½ Screenï¿½ï¿½ ï¿½Ö´Âµï¿½ ï¿½ëµµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ï¿½ï¿½.
 	
-	// hp¹ÙÀ§Ä¡
+	// hpï¿½ï¿½ï¿½ï¿½Ä¡
 	_hpbarWidget->SetRelativeLocation(FVector(0.0f, 0.0f, 238.0f));
 	// Stat Component
 	_statCom = CreateDefaultSubobject<UMyStatComponent>(TEXT("Stat"));
@@ -79,22 +91,17 @@ AMyCharacter::AMyCharacter()
 	APawn::AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 
 
-	// Particle
-	static ConstructorHelpers::FObjectFinder<UParticleSystem> PT(TEXT("/Script/Engine.ParticleSystem'/Game/ParagonGrux/FX/Particles/Abilities/HardKnocks/FX/P_Grux_Knockup.P_Grux_Knockup'"));
+	//// Particle
+	//static ConstructorHelpers::FObjectFinder<UParticleSystem> PT(TEXT("/Script/Engine.ParticleSystem'/Game/ParagonGrux/FX/Particles/Abilities/HardKnocks/FX/P_Grux_Knockup.P_Grux_Knockup'"));
 
-	if (PT.Succeeded())
-	{
-		_particle = PT.Object;
-	}
-	
-
-	//// Niagara
-
-	//static ConstructorHelpers::FObjectFinder<UNiagaraSystem> VFX(TEXT("/Script/Niagara.NiagaraSystem'/Game/MegaMagicVFXBundle/VFX/MagicAuraVFX/VFX/NatureAura/Systems/N_NatureAura.N_NatureAura'"));
-	//if (VFX.Succeeded())
+	//if (PT.Succeeded())
 	//{
-	//	_vfx = VFX.Object;
+	//	_particle = PT.Object;
 	//}
+	
+	/*static ConstructorHelpers::FClassFinder<AMyPtojectile>
+	projectileclass(TEXT("/Script/Engine.Blueprint'/Game/BluePrint/Object/MyProjectile_BP.MyProjectile_BP_C'"));*/
+
 }
 
 // Called when the game starts or when spawned
@@ -104,9 +111,8 @@ void AMyCharacter::BeginPlay()
 	
 	Init();
 
-	/*UNiagaraComponent* nc = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), _vfx, GetActorLocation());
-	nc->SetNiagaraVariableBool(FString("Blood_Explosion"), false);*/
-	
+	///////////////////////////////////ï¿½ï¿½ï¿½ï¿½ ï¿½Ì±ï¿½ï¿½ï¿½? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø°ï¿½ï¿½Øºï¿½ï¿½ï¿½////////////////////////
+	//_soundManager = Cast<UMyGameInstance>(GetGameInstance())->GetSoundManager();
 }
 
 void AMyCharacter::PostInitializeComponents()
@@ -114,7 +120,7 @@ void AMyCharacter::PostInitializeComponents()
 	Super::PostInitializeComponents();
 	_animInstance = Cast<UMyAnimInstance>(GetMesh()->GetAnimInstance());
 
-	// ¸ùÅ¸ÁÖ°¡ ³¡³¯¶§ _isAttack À» false·Î
+	// ï¿½ï¿½Å¸ï¿½Ö°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ _isAttack ï¿½ï¿½ falseï¿½ï¿½
 	if (_animInstance->IsValidLowLevel())
 	{
 		_animInstance->OnMontageEnded.AddDynamic(this, &AMyCharacter::OnAttackEnded);
@@ -122,7 +128,7 @@ void AMyCharacter::PostInitializeComponents()
 		_animInstance->_deathDelegate.AddUObject(this, &AMyCharacter::Disable);
 	}
 
-	// ·¹º§ ¼³Á¤
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	_statCom->SetLevelAndInit(1);
 	
 
@@ -174,10 +180,25 @@ void AMyCharacter::OnAttackEnded(UAnimMontage* Montage, bool bInterrupted)
 
 void AMyCharacter::AttackHit()
 {
+
+	//projectile Test
+	// Skill Arrow
+	if (_projectileclass)
+	{
+		FVector forward = GetActorForwardVector();
+		FVector fireLocation = GetActorLocation()  + forward * 150;
+
+		auto projectile = GetWorld()->SpawnActor<AMyPtojectile>(_projectileclass, fireLocation, FRotator::ZeroRotator);
+
+		projectile->FireInDirection(forward);
+	}
+
+
+
 	//UE_LOG(LogTemp, Warning, TEXT("Attack!!!!!!!!!"));
-	//TODO : Attack Ãæµ¹Ã³¸® (Á¶±Ý º¹ÀâÇÔ)
+	//TODO : AttackChanel
 	FHitResult hitResult;
-	FCollisionQueryParams params(NAME_None, false, this); //this ÀÚ±âÀÚ½ÅÀ» ¹«½ÃÇÏ¶ó.. ³»°¡ ³ªÇÑÅ× µ¥¹ÌÁöµé¾î¿Ã¼öÀÖÀ½..
+	FCollisionQueryParams params(NAME_None, false, this); //this ï¿½Ú±ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ï¿½..
 
 	float attackRange = 1000.0f;
 	float attackRadius = 20.0f;
@@ -189,7 +210,6 @@ void AMyCharacter::AttackHit()
 	FVector center = GetActorLocation() + forward * attackRange * 0.5f;
 	FVector start = GetActorLocation();
 	FVector end = start + forward * (attackRange*0.5f);
-
 
 	bool bResult = GetWorld()->SweepSingleByChannel
 	(
@@ -203,73 +223,74 @@ void AMyCharacter::AttackHit()
 
 		params
 	);
+	
+	FColor drawColor = FColor::Green;
 
-		
+	if (bResult && hitResult.GetActor()->IsValidLowLevel())
+	{
+		//UE_LOG(LogTemp, Warning, TEXT("HitActor : %s"), *hitResult.GetActor()->GetName());
+		drawColor = FColor::Red;
 
-		FColor drawColor = FColor::Green;
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½...
+		// 1. .... 
+		FDamageEvent damageEvent;
+		hitResult.GetActor()->TakeDamage(_statCom->GetAttackDamge(), damageEvent, GetController(), this);
+		_hitPoint = hitResult.ImpactPoint;
 
-		if (bResult && hitResult.GetActor()->IsValidLowLevel())
-		{
-			UE_LOG(LogTemp, Warning, TEXT("HitActor : %s"), *hitResult.GetActor()->GetName());
-			drawColor = FColor::Red;
-
-			// µ¥¹ÌÁö...
-			// 1. .... 
-			FDamageEvent damageEvent;
-			hitResult.GetActor()->TakeDamage(_statCom->GetAttackDamge(), damageEvent, GetController(), this);
+		// ï¿½ï¿½ï¿½ï¿½ 
+		//_attackHitEvent.Broadcast();
 			
-			// ÆÄÆ¼Å¬ È÷Æ®Æ÷ÀÎÆ®
-			FVector hitPoint = hitResult.ImpactPoint;
-			if (_particle)
-			{
-				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), _particle, hitPoint, FRotator::ZeroRotator);
-			}
-
-
-
-			//
-			//// ÇÃ·¹ÀÌ½Ã ¸¶¿ì½ºÄ¿¼­ º¸ÀÏÁö¸»Áö..
-			//if (GetController())
-			//{
-			//	Cast<AMyPlayerController>(GetController())->ShowUI();
-			//}
-		}
-
-		// ¾îÅÃµ¥¹ÌÁö ·Î±× Ãâ·Â
-		UE_LOG(LogTemp, Warning, TEXT("AttackDamage : %d"), _statCom->GetAttackDamge());
-		//UE_LOG(LogTemp, Warning, TEXT("ME : %s AttackDamage : %d"), *GetName(), _attackDamage);
-
+			
+		// ï¿½ï¿½Æ¼Å¬ ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½Æ®
+		EffectManager->Play("Particle", _hitPoint);
+			
+		// ï¿½ï¿½ï¿½ï¿½
 		
-		//DEBUG : DrawCapsule
-		//DrawDebugSphere(GetWorld(), center, attackRadius, 12, drawColor, false, 2.0f);	
-		//DrawDebugCapsule(GetWorld(), center, attackRange * 0.5f, attackRadius, quat, drawColor, false, 2.0f);
+		PlayAttackHitSound("DefaultSound", _hitPoint);
 
 
-		// Niagara
-		/*PlayNiagaraEffect();*/
+
+		//// ï¿½Ã·ï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½ì½ºÄ¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..
+		//if (GetController())
+		//{
+		//	Cast<AMyPlayerController>(GetController())->ShowUI();
+		//}
+	}
+
+	// ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î±ï¿½ ï¿½ï¿½ï¿½
+	UE_LOG(LogTemp, Warning, TEXT("AttackDamage : %d"), _statCom->GetAttackDamge());
+	//UE_LOG(LogTemp, Warning, TEXT("ME : %s AttackDamage : %d"), *GetName(), _attackDamage);
+				
+	//DEBUG : DrawCapsule
+	//DrawDebugSphere(GetWorld(), center, attackRadius, 12, drawColor, false, 2.0f);	
+	//DrawDebugCapsule(GetWorld(), center, attackRange * 0.5f, attackRadius, quat, drawColor, false, 2.0f);
 }
-		
-//void AMyCharacter::PlayNiagaraEffect()
-//{
-//	if (_vfx)
-//	{
-//		if (_niagaraComponent)
-//		{
-//			_niagaraComponent->Deactivate();
-//			_niagaraComponent->DestroyComponent();
-//		}
-//
-//		_niagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), _vfx, GetActorLocation());
-//		if (_niagaraComponent)
-//		{
-//			_niagaraComponent->SetNiagaraVariableBool(FString("Blood_Explosion"), false);
-//		}
-//	}
-//}
+
+void AMyCharacter::PlayAttackHitSound(FString SoundName, FVector location)
+{
+	
+	/*if (SoundManager)
+	{
+		SoundManager->PlaySound(SoundName, location);
+	}*/
+	FString Sounds = SoundName;
+
+	if (IsA(AMyPlayer::StaticClass()))
+	{
+		Sounds = "PlayerDamageCue";
+	}
+	else if (IsA(AMyMonsters::StaticClass()))
+	{
+		Sounds = "MonsterDamageCue";
+	}
+
+	SoundManager->PlaySound(Sounds, location);
+
+}
 
 void AMyCharacter::AddAttackDamage(AActor* actor, int amount)
 {
-	// actor´Â ³ªÀÇ °ø°Ý·ÂÀ» ¹öÇÁÇØÁØ ´ë»ó
+	// actorï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ý·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 
 	_statCom->AddAttackDamage(amount);
 }
@@ -279,7 +300,7 @@ void AMyCharacter::AddItemToCharacter(AMyItem* item)
 	/*if (_invenCom)
 	{*/
 		_invenCom->AddItem(item);
-		//item->Disable(); //Àá±ñ ½ºÅ¾
+		//item->Disable(); //ï¿½ï¿½ï¿½ ï¿½ï¿½Å¾
 		UE_LOG(LogTemp, Log, TEXT("Added item: %s"), *item->GetName());
 
 	/*}*/
@@ -289,14 +310,14 @@ void AMyCharacter::DropItemFromCharacter()
 {
 	_invenCom->DropItem();
 		
-	////µ¥¹ÌÁö°¨¼Ò½Ãµµ
+	////ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò½Ãµï¿½
 	//if (_invenCom)
 	//{
-	//	if (_invenCom->HasItems()) // ÀÎº¥Åä¸®¿¡ ¾ÆÀÌÅÛÀÌ ÀÖ´ÂÁö È®ÀÎ
+	//	if (_invenCom->HasItems()) // ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 	//	{
 	//		_invenCom->DropItem();
 	//		UE_LOG(LogTemp, Warning, TEXT("Attack Damage -50"));
-	//		_statCom->SubAttackDamage(50); // °ø°Ý·Â °¨¼Ò
+	//		_statCom->SubAttackDamage(50); // ï¿½ï¿½ï¿½Ý·ï¿½ ï¿½ï¿½ï¿½ï¿½
 	//	}
 	//	else
 	//	{
@@ -313,9 +334,9 @@ void AMyCharacter::Init()
 	SetActorEnableCollision(true);
 	PrimaryActorTick.bCanEverTick = true;
 
-	_statCom->_deathDelegate.AddLambda([this]()-> void { this->GetController()->UnPossess(); }); // ±âÁ¸ °­»ç´Ô ºÎºÐ
+	_statCom->_deathDelegate.AddLambda([this]()-> void { this->GetController()->UnPossess(); }); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½
 
-	if (_aiController && GetController() == nullptr) // ÄÁÆ®·Ñ·¯¸¦ ´Ù½Ã ÀÔÇôÇáÇÏ±â¶§¹®¿¡ ÄÁÆ®·Ñ·¯·Î ±â¾ïÇÒ¼öÀÖµµ·Ï... Àç ºùÀÇ¸¦ À§ÇØ...
+	if (_aiController && GetController() == nullptr) // ï¿½ï¿½Æ®ï¿½Ñ·ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï±â¶§ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½Ñ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ò¼ï¿½ï¿½Öµï¿½ï¿½ï¿½... ï¿½ï¿½ ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½...
 	{
 		auto ai_Controller = Cast<AMyAIController>(_aiController);
 		if(ai_Controller)
@@ -332,8 +353,9 @@ void AMyCharacter::Disable()
 	
 	auto controller = GetController();
 	if (controller)
-		GetController()->UnPossess();; // ¸ó½ºÅÍ Á×À¸¸é ºùÀÇ Ç®±â
+		GetController()->UnPossess();; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç®ï¿½ï¿½
 	
 }
+
 
 

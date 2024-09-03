@@ -52,14 +52,14 @@ void UMyInvenComponent::AddItem(AMyItem* item)
 
 void UMyInvenComponent::DropItem()
 {
-	if (_items.Num() == 0) // ╬фюлеш ╟╝╟МюжаЖ╬йю╦╦И 0
+	if (_items.Num() == 0) // О©╫О©╫О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫ 0
 	{
 		return;
 	}
 	
-	int itemSize = _items.Num(); //╬фюлеш ╩Ха╕╫ц ц╪е╘го╠Бю╖гь size
+	int itemSize = _items.Num(); //О©╫О©╫О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫ ц╪е╘О©╫о╠О©╫О©╫О©╫О©╫О©╫ size
 	auto item = _items.Pop();
-	_itemAddedEvent.Broadcast(-1, itemSize - 1); //╬фюлеш ╩Ха╕╫ц
+	_itemAddedEvent.Broadcast(-1, itemSize - 1); //О©╫О©╫О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫
 
 	float randFloat = FMath::FRandRange(0, PI * 2.0f);
 

@@ -8,7 +8,7 @@ public class UE5_Character_02 : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput","UMG", "NavigationSystem", "AIModule", "GameplayTasks" ,"Niagara"});
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput","UMG", "NavigationSystem", "AIModule", "GameplayTasks" ,"Niagara", "AudioMixer", "SoundUtilities", "SoundFieldRendering"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

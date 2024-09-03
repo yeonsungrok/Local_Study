@@ -11,7 +11,7 @@
 
 //void UMyInvenWidget::ToggleVisibility(bool bIsVisible)
 //{
-//	// À§Á¬ÀÇ °¡½Ã¼ºÀ» ¼³Á¤
+//	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //	if (bIsVisible)
 //	{
 //		SetVisibility(ESlateVisibility::Visible);

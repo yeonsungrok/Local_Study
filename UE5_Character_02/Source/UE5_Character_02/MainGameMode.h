@@ -19,7 +19,7 @@ class UE5_CHARACTER_02_API AMainGameMode : public AGameModeBase
 public:
 	AMainGameMode();
 
-	// ½ºÆù¾×ÅÍ¸¦ À§ÇÔ
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½
 	virtual void BeginPlay() override;
 
 	UPROPERTY()
@@ -34,7 +34,7 @@ public:
 	
 
 
-	// Widget : MyInvenWidgetÀ» À§ÇÑ°Í.
+	// Widget : MyInvenWidgetï¿½ï¿½ ï¿½ï¿½ï¿½Ñ°ï¿½.
 //	UMyInvenWidget* MyInvenWidgetInstance;
 //private:
 //	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UI", meta = (AllowPrivateAccess = "true"))
