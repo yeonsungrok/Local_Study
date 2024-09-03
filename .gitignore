@@ -396,7 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-
 # Prerequisites
 *.d
 
@@ -702,8 +701,3 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-
-root = true
-
-[*]
-charset = utf-8
