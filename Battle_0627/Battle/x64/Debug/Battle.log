@@ -1,19 +1,16 @@
 ﻿  pch.cpp
   Archer.cpp
-D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Battle_0627\Battle\Contents\Creature\Archer.cpp(24,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 '/Contents/Creature/Archer.cpp'을(를) 컴파일하는 중)
-  
   Creature.cpp
+D:\YeonSungRok\SGA\Local_Study\Battle_0627\Battle\Contents\Creature\Archer.cpp(24,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Knight.cpp
   Mage.cpp
   Goblin.cpp
   HobGoblin.cpp
+D:\YeonSungRok\SGA\Local_Study\Battle_0627\Battle\Contents\Creature\HobGoblin.cpp(42,103): error C2001: 상수에 줄 바꿈 문자가 있습니다.
+D:\YeonSungRok\SGA\Local_Study\Battle_0627\Battle\Contents\Creature\HobGoblin.cpp(43,3): error C2146: 구문 오류: ';'이(가) 'LivePlayers' 식별자 앞에 없습니다.
   main.cpp
-D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Battle_0627\Battle\main.cpp(40,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 '/main.cpp'을(를) 컴파일하는 중)
-  
+D:\YeonSungRok\SGA\Local_Study\Battle_0627\Battle\main.cpp(40,13): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Monster.cpp
   Player.cpp
   World.cpp
   코드를 생성하고 있습니다...
-  Battle.vcxproj -> D:\YeonSungRok\SGA서울게임아카데미\Local_Study\Battle_0627\x64\Debug\Battle.exe

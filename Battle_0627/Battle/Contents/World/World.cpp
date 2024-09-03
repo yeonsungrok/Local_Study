@@ -43,7 +43,7 @@ bool World::End()
 //	
 //	if (PlayerType::KNIGHT == num)
 //	{
-//		cout << "(±â»ç)" << endl;
+//		cout << "(ï¿½ï¿½ï¿½)" << endl;
 //	}
 //	else if (PlayerType::ARCHER == num)
 //
@@ -56,7 +56,7 @@ void World::SelectPlayer(int num, string name, Creature** creature)
 	{
 	case PlayerType::NONE:
 	{
-		cout << "´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä." << endl;
+		cout << "ï¿½Ù½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½." << endl;
 		break;
 	}
 
@@ -81,7 +81,7 @@ void World::SelectPlayer(int num, string name, Creature** creature)
 
 	default:
 	{
-		cout << "´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä." << endl;
+		cout << "ï¿½Ù½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½." << endl;
 		break;
 	}
 	break;
@@ -89,7 +89,7 @@ void World::SelectPlayer(int num, string name, Creature** creature)
 	}
 }
 
-// ¸ó½ºÅÍ ¸¸µé¾îº¸±â 
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½îº¸ï¿½ï¿½ 
 void World::useMonster(PlayerType num, Creature** creature)
 {
 	if (num == ARCHER || num == KNIGHT || num == MAGE)
@@ -109,14 +109,14 @@ void World::useBossMonster(HobGoblin** creature)
 
 void World::MultyPlayers()
 {
-	// ÇÃ·¹ÀÌ¾î º¤ÅÍ ÃÊ±âÈ­?
+	// ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­?
 	players.clear();
 
-	// Ã¹¹øÂ° ÇÃ·¹ÀÌ¾î´Â _player
+	// Ã¹ï¿½ï¿½Â° ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ï¿½ _player
 	players.push_back(_player);
 	//players.push_back(dynamic_cast<Player*>(_player));
 	
-	// 9¸í ÇÃ·¹ÀÌ¾î Ãß°¡.
+	// 9ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½ß°ï¿½.
 	for (int i = 0; i < 9; ++i)
 	{
 		int randPlayer = rand() % 3 + 1;
@@ -151,19 +151,19 @@ void World::Input()
 	int cumNum = 0;
 	string name;
 	
-	cout << "ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä" << endl;
+	cout << "ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½" << endl;
 	cin >> name;
-	cout << "1. Knight(±â»ç)\t2. Archer(±Ã¼ö)\t 3. Mage(¸¶¹ý»ç) Áß¿¡¼­ ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä." << endl;
+	cout << "1. Knight(ï¿½ï¿½ï¿½)\t2. Archer(ï¿½Ã¼ï¿½)\t 3. Mage(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½ß¿ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½." << endl;
 	cin >> playerNum;
 	cumNum = rand() % 3 + 1; // 1 ~ 3
 	SelectPlayer(playerNum, name, &_player);
 	//MultyPlayers();
 	//BossMonster();
-	//SelectPlayer(playerNum, "computer", &_computer); // º¸·ù
-	useMonster(static_cast<PlayerType>(cumNum), &_computer); // ¡Úº¯°æÇØº½
-	// playerÀÇ ¹Þ´Â °ª¿¡ µû¶ó ´Þ¶óÁø°Í ¾øÀÌ µ¿ÀÏÇÑ ÇÑ ¸ó½ºÅÍ¸¸ Ãâ·ÂµÇ°ÔÇÔ
-	// ÇÏÁö¸¸ playerNum ¸É¹öº¯¼ö·Î ÀÔ·ÂµÇÁö ¾ÊÀ½.
-	// ±×·¡¼­ static_cast<CharacterType>(cumNum)¸¦ Á¤ÀûÄ³½ºÆÃ »ç¿ëÇÔ. ±×·¡¾ß useMonster ÇÔ¼ö¿¡Àü´ÞµÊ
+	//SelectPlayer(playerNum, "computer", &_computer); // ï¿½ï¿½ï¿½ï¿½
+	useMonster(static_cast<PlayerType>(cumNum), &_computer); // ï¿½Úºï¿½ï¿½ï¿½ï¿½Øºï¿½
+	// playerï¿½ï¿½ ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¶ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ÂµÇ°ï¿½ï¿½ï¿½
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ playerNum ï¿½É¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·Âµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	// ï¿½×·ï¿½ï¿½ï¿½ static_cast<CharacterType>(cumNum)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½. ï¿½×·ï¿½ï¿½ï¿½ useMonster ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þµï¿½
 }
 
 
@@ -186,7 +186,7 @@ void World::Battle2()
 
 	for (int i = 0; i < numGoblins; ++i) 
 	{
-		goblins[i] = new Goblin("°íºí¸°" + to_string(i + 1), 150, 0, 15);
+		goblins[i] = new Goblin("ï¿½ï¿½ï¿½ï¿½" + to_string(i + 1), 150, 0, 15);
 	}
 	
 	
@@ -195,20 +195,20 @@ void World::Battle2()
 		while (!goblins[i]->IsDead() && !_player->IsDead())
 		{
 			_player->Attack(goblins[i]);
-			// °æÇèÄ¡..
+			// ï¿½ï¿½ï¿½ï¿½Ä¡..
 			if (goblins[i]->IsDead())
 			{
 				Player* player = dynamic_cast<Player*>(_player);
 				if (player)
 				{
-					player->AddExp(10); // °íºí¸°À» Ã³Ä¡ÇÒ ¶§ 10 °æÇèÄ¡¸¦ Ãß°¡
+					player->AddExp(10); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã³Ä¡ï¿½ï¿½ ï¿½ï¿½ 10 ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ß°ï¿½
 					_accmulatedExp += 10;
 					if (_accmulatedExp >= _maxExp)
 					{
 						_maxExp += 15;
 						_accmulatedExp = 0;
 					}
-					cout << "¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡[°æÇèÄ¡¸¦ È¹µæÇß½À´Ï´Ù!]" << endl;
+					cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ È¹ï¿½ï¿½ï¿½ß½ï¿½ï¿½Ï´ï¿½!]" << endl;
 					player->PrintExp();
 
 				}
@@ -246,8 +246,8 @@ void World::Battle3()
 	MultyPlayers();
 
 	useBossMonster(&hobgoblin);
-	// any_of ¶õ?
-	// first ºÎÅÍ last Àü ±îÁö ¿ø¼Òµé¿¡ ´ëÇØ pred °¡ ÂüÀ» ¸®ÅÏÇÏ´Â ¿ø¼Ò°¡ ÇÏ³ª¶óµµ ÀÖ´Ù¸é, any_ofµµ ÂüÀ» ¸®ÅÏ
+	// any_of ï¿½ï¿½?
+	// first ï¿½ï¿½ï¿½ï¿½ last ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Òµé¿¡ ï¿½ï¿½ï¿½ï¿½ pred ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½Ò°ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½Ö´Ù¸ï¿½, any_ofï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	// 
 	while (!hobgoblin->IsDead() && any_of(players.begin(), players.end(), [](Creature* player) {return !player->IsDead(); }))
 	{
@@ -301,8 +301,8 @@ bool World::SelectBattle()
 {
 	int selecNum = 0;
 
-	cout << "¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡ ¼± ÅÃ ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡" << endl;
-	cout << "1. ÄÄÇ»ÅÍ¿Í ÀüÅõ\t2. »ç³É(°æÇèÄ¡)\t\t3. º¸½º(°íºí¸°)\t4. Á¾·á" << endl;
+	cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" << endl;
+	cout << "1. ï¿½ï¿½Ç»ï¿½Í¿ï¿½ ï¿½ï¿½ï¿½ï¿½\t2. ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½Ä¡)\t\t3. ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½)\t4. ï¿½ï¿½ï¿½ï¿½" << endl;
 	cin >> selecNum;
 
 	switch (selecNum)
@@ -320,7 +320,7 @@ bool World::SelectBattle()
 		return false;
 
 	default:
-		cout << "Àß¸ø ÀÔ·ÂÇÏ¼ÌÀ¸´Ï ´Ù½Ã ¼±ÅÃÇØ ÁÖ¼¼¿ä" << endl;
+		cout << "ï¿½ß¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½" << endl;
 		return true;	
 	}
 	return true;

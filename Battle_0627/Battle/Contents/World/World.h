@@ -14,17 +14,17 @@ public:
 
 	World();
 	~World();
-	// ±íÀºº¹»ç : º¹»ç»ý¼ºÀÚ, º¹»ç´ëÀÔ¿¬»êÀÚ µÑ´Ù
-	// º¹»ç»ý¼ºÀÚ
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ´ï¿½
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	// World(const World& other);
-	// º¹»ç ´ëÀÔ¿¬»êÀÚ
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ï¿½ï¿½
 	// World& operator=(const World& other);
 
-	void Init(); // ÃÊ±âÈ­
+	void Init(); // ï¿½Ê±ï¿½È­
 	
 	bool End();
 	void Battle1();
-	void Battle2(); // °úÁ¦
+	void Battle2(); // ï¿½ï¿½ï¿½ï¿½
 	void Battle3();
 	void Input();
 	bool SelectBattle();
@@ -39,7 +39,7 @@ private:
 	void useMonster(PlayerType num, Creature** creature); 
 
 	void useBossMonster(HobGoblin** creture);
-	void MultyPlayers(); //¡Ú¸¸µé¾îº½ // 10¸íÀ¯Àú //Player* selected_Player
+	void MultyPlayers(); //ï¿½Ú¸ï¿½ï¿½ï¿½îº½ // 10ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ //Player* selected_Player
 
 	void HealAll();
 
@@ -51,8 +51,8 @@ private:
 	Creature* _player;
 	Creature* _computer;
 	
-	static const int numGoblins = 10; // °íºí¸°¼ö
-	Goblin* goblins[numGoblins]; // °íºí¸° Æ÷ÀÎÆ®¹è¿­
+	static const int numGoblins = 10; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	Goblin* goblins[numGoblins]; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½è¿­
 
 	vector<Creature*> players;
 
