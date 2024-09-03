@@ -1,4 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.nc
-*.csv
+git lfs install
+git lfs track "*.psd"
+git add .gitattributes
